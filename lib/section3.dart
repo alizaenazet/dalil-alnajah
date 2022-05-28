@@ -50,7 +50,7 @@ class _Section3State extends State<Section3> {
                 height: 30,
               ),
               Container(
-                height: 50,
+                // constraints: BoxConstraints(minHeight: 50),
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -63,7 +63,7 @@ class _Section3State extends State<Section3> {
                 height: 40,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -80,7 +80,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -97,7 +97,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -114,7 +114,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -131,7 +131,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -205,7 +205,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -243,7 +243,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                constraints: BoxConstraints(minHeight: 50),
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -262,7 +262,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -300,7 +300,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -319,7 +319,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -357,7 +357,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -376,7 +376,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -395,7 +395,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -414,7 +414,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -471,7 +471,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -490,7 +490,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -507,7 +507,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -562,7 +562,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -600,7 +600,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -657,7 +657,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -676,7 +676,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -714,7 +714,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -790,7 +790,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -885,7 +885,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -1151,7 +1151,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -1282,7 +1282,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -1339,7 +1339,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -1510,7 +1510,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Container(
-                height: 150,
+                // height: 150,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(

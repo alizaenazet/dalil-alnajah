@@ -319,7 +319,7 @@ class _Section1State extends State<Section1> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Container(
-                    height: 100,
+                    // height: 100,
                     width: MediaQuery.of(context).size.width,
                     child: Text(
                       'وَ مَنْ يَتَوَ كَّلْ عَلَ اُللهِ فَهُوَ حَسْبُهُ',

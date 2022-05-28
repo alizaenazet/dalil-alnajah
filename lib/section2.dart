@@ -52,7 +52,7 @@ class _Section2State extends State<Section2> {
                 height: 30,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -65,7 +65,7 @@ class _Section2State extends State<Section2> {
                 height: 40,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -82,7 +82,7 @@ class _Section2State extends State<Section2> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -99,7 +99,7 @@ class _Section2State extends State<Section2> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -116,7 +116,7 @@ class _Section2State extends State<Section2> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -133,7 +133,7 @@ class _Section2State extends State<Section2> {
                 height: 20,
               ),
               Container(
-                height: 50,
+                // height: 50,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
@@ -150,7 +150,7 @@ class _Section2State extends State<Section2> {
                 height: 20,
               ),
               Container(
-                height: 100,
+                // height: 100,
                 color: color,
                 width: MediaQuery.of(context).size.width,
                 child: Text(
