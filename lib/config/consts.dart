@@ -27,10 +27,10 @@ final largeBlackArabic = TextStyle(
 );
 
 final arabicTitleStyle = TextStyle(
-    color: Colors.black,
-    fontSize: 18,
-    fontWeight: FontWeight.bold,
-    fontFamily: LPMQFontFamily);
+  color: Colors.black,
+  fontSize: 18,
+  fontWeight: FontWeight.bold,
+);
 
 const largeBoldGreenArabic = TextStyle(
   color: Colors.green,

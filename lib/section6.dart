@@ -42,90 +42,71 @@ class _Section6State extends State<Section6> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
+        ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          children: [
+            SizedBox(
+              height: 40,
+            ),
+            Text(
+              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+              textDirection: TextDirection.rtl,
+              style: largeGreenArabic,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'ثُمَّ اَنۡزَلَ عَلَيۡكُمۡ مِّنۡۢ بَعۡدِ الۡغَمِّ اَمَنَةً نُّعَاسًا يَّغۡشٰى طَآٮِٕفَةً مِّنۡكُمۡ‌ۙ وَطَآٮِٕفَةٌ قَدۡ اَهَمَّتۡهُمۡ اَنۡفُسُهُمۡ يَظُنُّوۡنَ بِاللّٰهِ غَيۡرَ الۡحَـقِّ ظَنَّ الۡجَـاهِلِيَّةِ‌ؕ يَقُوۡلُوۡنَ هَل لَّنَا مِنَ الۡاَمۡرِ مِنۡ شَىۡءٍ‌ؕ قُلۡ اِنَّ الۡاَمۡرَ كُلَّهٗ لِلّٰهِ‌ؕ يُخۡفُوۡنَ فِىۡۤ اَنۡفُسِهِمۡ مَّا لَا يُبۡدُوۡنَ لَكَ‌ؕ يَقُوۡلُوۡنَ لَوۡ كَانَ لَنَا مِنَ الۡاَمۡرِ شَىۡءٌ مَّا قُتِلۡنَا هٰهُنَا‌ؕ قُل لَّوۡ كُنۡتُمۡ فِىۡ بُيُوۡتِكُمۡ لَبَرَزَ الَّذِيۡنَ كُتِبَ عَلَيۡهِمُ الۡقَتۡلُ اِلٰى مَضَاجِعِهِمۡ‌ۚ وَلِيَبۡتَلِىَ اللّٰهُ مَا فِىۡ صُدُوۡرِكُمۡ وَلِيُمَحِّصَ مَا فِىۡ قُلُوۡبِكُمۡ‌ؕ وَاللّٰهُ عَلِيۡمٌۢ بِذَاتِ الصُّدُوۡرِ',
+              textDirection: TextDirection.rtl,
+              style: largeBlackArabic,
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Text(
+              'Kemudian setelah kamu ditimpa kesedihan, Dia menurunkan rasa aman kepadamu (berupa) kantuk yang meliputi segolongan dari kamu, sedangkan segolongan lagi telah dicemaskan oleh diri mereka sendiri; mereka menyangka yang tidak benar terhadap Allah seperti sangkaan jahiliah. Mereka berkata, “Apakah sesuatu yang dapat kita perbuat dalam urusan ini?” Katakanlah (Muhammad), “Sesungguhnya segala urusan itu di tangan Allah.” Mereka menyembunyikan dalam hatinya apa yang tidak mereka terangkan kepadamu. Mereka berkata, “Sekiranya ada sesuatu yang dapat kita perbuat dalam urusan ini, niscaya kita tidak akan dibunuh (dikalahkan) di sini.” Katakanlah (Muhammad), “Meskipun kamu ada di rumahmu, niscaya orang-orang yang telah ditetapkan akan mati terbunuh itu keluar (juga) ke tempat mereka terbunuh.” Allah (berbuat demikian) untuk menguji apa yang ada dalam dadamu dan untuk membersihkan apa yang ada dalam hatimu. Dan Allah Maha Mengetahui isi hati.',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                      height: 1.5, color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(
-                  height: 40,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                Container(
-                  // height: 50,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-                    textDirection: TextDirection.rtl,
-                    style: largeGreenArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                SizedBox(
-                  height: 20,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                Container(
-                  // height: 800,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'ثُمَّ اَنۡزَلَ عَلَيۡكُمۡ مِّنۡۢ بَعۡدِ الۡغَمِّ اَمَنَةً نُّعَاسًا يَّغۡشٰى طَآٮِٕفَةً مِّنۡكُمۡ‌ۙ وَطَآٮِٕفَةٌ قَدۡ اَهَمَّتۡهُمۡ اَنۡفُسُهُمۡ يَظُنُّوۡنَ بِاللّٰهِ غَيۡرَ الۡحَـقِّ ظَنَّ الۡجَـاهِلِيَّةِ‌ؕ يَقُوۡلُوۡنَ هَل لَّنَا مِنَ الۡاَمۡرِ مِنۡ شَىۡءٍ‌ؕ قُلۡ اِنَّ الۡاَمۡرَ كُلَّهٗ لِلّٰهِ‌ؕ يُخۡفُوۡنَ فِىۡۤ اَنۡفُسِهِمۡ مَّا لَا يُبۡدُوۡنَ لَكَ‌ؕ يَقُوۡلُوۡنَ لَوۡ كَانَ لَنَا مِنَ الۡاَمۡرِ شَىۡءٌ مَّا قُتِلۡنَا هٰهُنَا‌ؕ قُل لَّوۡ كُنۡتُمۡ فِىۡ بُيُوۡتِكُمۡ لَبَرَزَ الَّذِيۡنَ كُتِبَ عَلَيۡهِمُ الۡقَتۡلُ اِلٰى مَضَاجِعِهِمۡ‌ۚ وَلِيَبۡتَلِىَ اللّٰهُ مَا فِىۡ صُدُوۡرِكُمۡ وَلِيُمَحِّصَ مَا فِىۡ قُلُوۡبِكُمۡ‌ؕ وَاللّٰهُ عَلِيۡمٌۢ بِذَاتِ الصُّدُوۡرِ',
-                    textDirection: TextDirection.rtl,
-                    style: largeBlackArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                SizedBox(
-                  height: 30,
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Text(
-                    'Kemudian setelah kamu ditimpa kesedihan, Dia menurunkan rasa aman kepadamu (berupa) kantuk yang meliputi segolongan dari kamu, sedangkan segolongan lagi telah dicemaskan oleh diri mereka sendiri; mereka menyangka yang tidak benar terhadap Allah seperti sangkaan jahiliah. Mereka berkata, “Apakah sesuatu yang dapat kita perbuat dalam urusan ini?” Katakanlah (Muhammad), “Sesungguhnya segala urusan itu di tangan Allah.” Mereka menyembunyikan dalam hatinya apa yang tidak mereka terangkan kepadamu. Mereka berkata, “Sekiranya ada sesuatu yang dapat kita perbuat dalam urusan ini, niscaya kita tidak akan dibunuh (dikalahkan) di sini.” Katakanlah (Muhammad), “Meskipun kamu ada di rumahmu, niscaya orang-orang yang telah ditetapkan akan mati terbunuh itu keluar (juga) ke tempat mereka terbunuh.” Allah (berbuat demikian) untuk menguji apa yang ada dalam dadamu dan untuk membersihkan apa yang ada dalam hatimu. Dan Allah Maha Mengetahui isi hati.',
-                    style: GoogleFonts.roboto(
-                        textStyle: TextStyle(
-                            height: 1.5,
-                            color: Colors.grey.shade900,
-                            fontSize: 20)),
-                  ),
-                ),
-                SizedBox(
-                  height: 50,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 50,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
               ],
             ),
-          ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),

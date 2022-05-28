@@ -44,35 +44,24 @@ class _Section2State extends State<Section2> {
       ),
       backgroundColor: Colors.white,
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
+        ListView(
             padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(children: [
+            children: [
               SizedBox(
                 height: 30,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-                  textDirection: TextDirection.rtl,
-                  style: largeGreenArabic,
-                ),
+              Text(
+                'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+                textDirection: TextDirection.rtl,
+                style: largeGreenArabic,
               ),
               SizedBox(
                 height: 40,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ' + '   - ' + '١',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ' + '   - ' + '١',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -81,15 +70,10 @@ class _Section2State extends State<Section2> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'الرَّحْمَنِ الرَّحِيمِ' + '   - ' + '٢',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                'الرَّحْمَنِ الرَّحِيمِ' + '   - ' + '٢',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -98,15 +82,10 @@ class _Section2State extends State<Section2> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'مَالِكِ يَوْمِ الدِّينِ' + '   - ' + '٣',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                'مَالِكِ يَوْمِ الدِّينِ' + '   - ' + '٣',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -115,15 +94,10 @@ class _Section2State extends State<Section2> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ' + '   - ' + '٤',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ' + '   - ' + '٤',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -132,15 +106,10 @@ class _Section2State extends State<Section2> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ' + '   - ' + '٥',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ' + '   - ' + '٥',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -149,17 +118,12 @@ class _Section2State extends State<Section2> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 100,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ' +
-                      ' - ' +
-                      '٦',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ' +
+                    ' - ' +
+                    '٦',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 50,
@@ -198,8 +162,6 @@ class _Section2State extends State<Section2> {
                 height: 50,
               ),
             ]),
-          ),
-        ),
         Padding(
           padding: const EdgeInsets.all(15.0),
           child: Column(

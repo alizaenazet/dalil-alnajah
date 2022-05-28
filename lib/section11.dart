@@ -42,105 +42,103 @@ class _Section11State extends State<Section11> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 40,
+        ListView(
+          children: [
+            SizedBox(
+              height: 40,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Container(
+                // height: 50,
+                color: color,
+                width: MediaQuery.of(context).size.width,
+                child: Text('بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+                    textDirection: TextDirection.rtl,
+                    style:
+                        largeGreenArabic.copyWith(fontWeight: FontWeight.bold)),
               ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Container(
-                  // height: 50,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-                      textDirection: TextDirection.rtl,
-                      style: largeGreenArabic.copyWith(
-                          fontWeight: FontWeight.bold)),
-                ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Container(
-                  // height: 800,
-                  width: MediaQuery.of(context).size.width,
-                  color: Colors.white,
-                  child: Text(
-                      'سُبحْانَ الذِّيْ لَبِسَ العِزَّ وَقاَلَ بهِ سُبحْانَ الذِّيْ' +
-                          ' ' +
-                          'تعَطَفَّ باِلمَجْدِ وَتكَرَّمَ بهِ سُبْحَانَ الذِّيْ  احْصَى كُلَّ' +
-                          '  ' +
-                          'شَيئٍ بِعِلْمِهِ سُبحْانَ الذِّيْ لَ يَنْبَغِى  التسّْبِيْحُ' +
-                          '  ' +
-                          'إلِّ لهُ سُبحْانَ ذِيْ المَ نِ وَالفْضْلِ سُبحْانَ ذِيْ الْعِ' +
-                          '  ' +
-                          'زِ وَالْكَرَمِ سُبحْانَ ذِيْ الطَّوْلِ أسْئلَكَ بمِعاَقدِ الِعِ' +
-                          '  ' +
-                          'زِ مِنْ عَرْشِ كَ وَمُنْتهَى الرَّحْمَةِ مِنْ كِتاَبِك ' +
-                          '  ' +
-                          'وَباِسْمِكَ الْعْظَمِ وَجَ دِكَ الْعْلىَ وَكَلِمَاتِكَ التاَّمَّاتِ' +
-                          '  ' +
-                          ' الْعاَمَّاتِ الَّ تِيْ لَيُجَاوِزُهُنَّ بآَرٌّ وَلَفاَجِرٌ انْ تصَلِ يَ' +
-                          '  ' +
-                          'عَلىَ سَّيدِناَ مَحَمَّدٍ وَعَلىَ  الِ سَّيدِناَ مَحَمَّدٍ',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Container(
+                // height: 800,
+                width: MediaQuery.of(context).size.width,
+                color: Colors.white,
                 child: Text(
-                  'Maha suci Allah yang bersifat kemuliaan dan Dia berfirman dengannya. Maha suci Allah yang mempunyai sifat yang ketinggian dan menjadi mulia dengannya, Maha suci Allah yang meliputi ilmu-Nya tidak kepada orang lain. Maha suci Allah yang mempunyai kelebihan dan pemberian.' +
-                      ' Maha suci Allah yang mempunyai kebesaran dan kemuliaan. Maha suci Allah yang pemberian dan Nikmat. Daku memohon dengan rahmat-Mu dari kitab-Mu dan dengan nama-Mu yang mulia,kehormatan-Mu yang sempurna yang tidak dapat di atasi oleh segala kebaikan dan kejahatan. Sesungguhnya Kau bershalawat keatas Nabi Muhammad SAW dan keatas ahli keluarganya',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                          height: 1.5,
-                          color: Colors.grey.shade900,
-                          fontSize: 20)),
+                    'سُبحْانَ الذِّيْ لَبِسَ العِزَّ وَقاَلَ بهِ سُبحْانَ الذِّيْ' +
+                        ' ' +
+                        'تعَطَفَّ باِلمَجْدِ وَتكَرَّمَ بهِ سُبْحَانَ الذِّيْ  احْصَى كُلَّ' +
+                        '  ' +
+                        'شَيئٍ بِعِلْمِهِ سُبحْانَ الذِّيْ لَ يَنْبَغِى  التسّْبِيْحُ' +
+                        '  ' +
+                        'إلِّ لهُ سُبحْانَ ذِيْ المَ نِ وَالفْضْلِ سُبحْانَ ذِيْ الْعِ' +
+                        '  ' +
+                        'زِ وَالْكَرَمِ سُبحْانَ ذِيْ الطَّوْلِ أسْئلَكَ بمِعاَقدِ الِعِ' +
+                        '  ' +
+                        'زِ مِنْ عَرْشِ كَ وَمُنْتهَى الرَّحْمَةِ مِنْ كِتاَبِك ' +
+                        '  ' +
+                        'وَباِسْمِكَ الْعْظَمِ وَجَ دِكَ الْعْلىَ وَكَلِمَاتِكَ التاَّمَّاتِ' +
+                        '  ' +
+                        ' الْعاَمَّاتِ الَّ تِيْ لَيُجَاوِزُهُنَّ بآَرٌّ وَلَفاَجِرٌ انْ تصَلِ يَ' +
+                        '  ' +
+                        'عَلىَ سَّيدِناَ مَحَمَّدٍ وَعَلىَ  الِ سَّيدِناَ مَحَمَّدٍ',
+                    textDirection: TextDirection.rtl,
+                    style: largeBlackArabic),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text(
+                'Maha suci Allah yang bersifat kemuliaan dan Dia berfirman dengannya. Maha suci Allah yang mempunyai sifat yang ketinggian dan menjadi mulia dengannya, Maha suci Allah yang meliputi ilmu-Nya tidak kepada orang lain. Maha suci Allah yang mempunyai kelebihan dan pemberian.' +
+                    ' Maha suci Allah yang mempunyai kebesaran dan kemuliaan. Maha suci Allah yang pemberian dan Nikmat. Daku memohon dengan rahmat-Mu dari kitab-Mu dan dengan nama-Mu yang mulia,kehormatan-Mu yang sempurna yang tidak dapat di atasi oleh segala kebaikan dan kejahatan. Sesungguhnya Kau bershalawat keatas Nabi Muhammad SAW dan keatas ahli keluarganya',
+                style: GoogleFonts.roboto(
+                    textStyle: TextStyle(
+                        height: 1.5,
+                        color: Colors.grey.shade900,
+                        fontSize: 20)),
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                ],
-              ),
-              SizedBox(
-                height: 50,
-              ),
-            ],
-          ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),

@@ -43,253 +43,234 @@ class _Section10State extends State<Section10> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
+        ListView(
+          padding: EdgeInsets.symmetric(horizontal: 20),
+          children: [
+            SizedBox(
+              height: 30,
+            ),
+            Row(
               children: [
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  children: [
-                    Text(
-                      'Dzikir Untuk Kecerdasan',
-                      style: GoogleFonts.poppins(
-                          textStyle: TextStyle(
-                              color: Colors.green,
-                              fontSize: 17,
-                              fontWeight: FontWeight.bold)),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Container(
-                  // height: 100,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْنُ',
-                    textDirection: TextDirection.rtl,
-                    style: largeBlackArabic,
-                  ),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  children: [
-                    Text(
-                      'Komitmen Santri',
-                      style: GoogleFonts.poppins(
-                          textStyle: TextStyle(
-                              color: Colors.green,
-                              fontSize: 17,
-                              fontWeight: FontWeight.bold)),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 3,
-                ),
                 Text(
-                  'Faithful, Taqwa, Scholarly, Discipline, Responsible, Clean, Polite, Amiable, Neat (Beriman, Bertaqwa, Berilmu, Disiplin, Bertanggungjawab, Bersih, Sopan, Ramah, Rapi)',
-                  style: GoogleFonts.roboto(
+                  'Dzikir Untuk Kecerdasan',
+                  style: GoogleFonts.poppins(
                       textStyle: TextStyle(
-                          height: 1.5,
-                          color: Colors.grey.shade900,
-                          fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  children: [
-                    Text(
-                      '7 Kunci Kesuksesan',
-                      style: GoogleFonts.poppins(
-                          textStyle: TextStyle(
-                              color: Colors.green,
-                              fontSize: 17,
-                              fontWeight: FontWeight.bold)),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('الْجِدُّ وَلْمُوْ اَظَبَةْ',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  ' (Bersungguh sungguh dan ajeg dlm berkesungguhan)',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                          height: 1.5,
-                          color: Colors.grey.shade900,
-                          fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('مُدَاوَ مَةُ الْوُضُوْءْ',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  '(Menjaga Wudhu’)',
-                  style: GoogleFonts.roboto(
-                      textStyle:
-                          TextStyle(color: Colors.grey.shade900, fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('تَقْلِيْلُ الْغِذَءْ',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  '(Menyedikitkan makan)',
-                  style: GoogleFonts.roboto(
-                      textStyle:
-                          TextStyle(color: Colors.grey.shade900, fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('صَلَا ةُ الْلَيْلْ',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  '(Sholat Malam)',
-                  style: GoogleFonts.roboto(
-                      textStyle:
-                          TextStyle(color: Colors.grey.shade900, fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('قِرَاءَة ِالْقُرْ اَنِ نَظْرًا',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  '(Membaca Qur’an dengan melihat)',
-                  style: GoogleFonts.roboto(
-                      textStyle:
-                          TextStyle(color: Colors.grey.shade900, fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('تَرْكُ الْمَعَصِى',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  ' (Meninggalkan Maksiat)',
-                  style: GoogleFonts.roboto(
-                      textStyle:
-                          TextStyle(color: Colors.grey.shade900, fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Container(
-                  // height: 50,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text('اَنْ لَا يَأْكُلَ طَعَامَ السُّوْقْ',
-                      textDirection: TextDirection.rtl,
-                      style: largeBlackArabic),
-                ),
-                SizedBox(
-                  height: 3,
-                ),
-                Text(
-                  ' (Tidak Jajan Sembarangan)',
-                  style: GoogleFonts.roboto(
-                      textStyle:
-                          TextStyle(color: Colors.grey.shade900, fontSize: 20)),
-                ),
-                SizedBox(
-                  height: 50,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 50,
+                          color: Colors.green,
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold)),
                 ),
               ],
             ),
-          ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              'يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْنُ',
+              textDirection: TextDirection.rtl,
+              style: largeBlackArabic,
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              children: [
+                Text(
+                  'Komitmen Santri',
+                  style: GoogleFonts.poppins(
+                      textStyle: TextStyle(
+                          color: Colors.green,
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold)),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              'Faithful, Taqwa, Scholarly, Discipline, Responsible, Clean, Polite, Amiable, Neat (Beriman, Bertaqwa, Berilmu, Disiplin, Bertanggungjawab, Bersih, Sopan, Ramah, Rapi)',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                      height: 1.5, color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              children: [
+                Text(
+                  '7 Kunci Kesuksesan',
+                  style: GoogleFonts.poppins(
+                      textStyle: TextStyle(
+                          color: Colors.green,
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold)),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('الْجِدُّ وَلْمُوْ اَظَبَةْ',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              ' (Bersungguh sungguh dan ajeg dlm berkesungguhan)',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                      height: 1.5, color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('مُدَاوَ مَةُ الْوُضُوْءْ',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              '(Menjaga Wudhu’)',
+              style: GoogleFonts.roboto(
+                  textStyle:
+                      TextStyle(color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('تَقْلِيْلُ الْغِذَءْ',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              '(Menyedikitkan makan)',
+              style: GoogleFonts.roboto(
+                  textStyle:
+                      TextStyle(color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('صَلَا ةُ الْلَيْلْ',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              '(Sholat Malam)',
+              style: GoogleFonts.roboto(
+                  textStyle:
+                      TextStyle(color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('قِرَاءَة ِالْقُرْ اَنِ نَظْرًا',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              '(Membaca Qur’an dengan melihat)',
+              style: GoogleFonts.roboto(
+                  textStyle:
+                      TextStyle(color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('تَرْكُ الْمَعَصِى',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              ' (Meninggalkan Maksiat)',
+              style: GoogleFonts.roboto(
+                  textStyle:
+                      TextStyle(color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Container(
+              // height: 50,
+              width: MediaQuery.of(context).size.width,
+              child: Text('اَنْ لَا يَأْكُلَ طَعَامَ السُّوْقْ',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+            ),
+            SizedBox(
+              height: 3,
+            ),
+            Text(
+              ' (Tidak Jajan Sembarangan)',
+              style: GoogleFonts.roboto(
+                  textStyle:
+                      TextStyle(color: Colors.grey.shade900, fontSize: 20)),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),

@@ -43,81 +43,64 @@ class _Section15State extends State<Section15> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 40,
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Container(
-                  // height: 50,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-                    textDirection: TextDirection.rtl,
-                    style: largeBoldGreenArabic,
-                  ),
+        ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          children: [
+            SizedBox(
+              height: 40,
+            ),
+            Text(
+              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+              textDirection: TextDirection.rtl,
+              style: largeBoldGreenArabic,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'لَااِلَهَ اِلاَّااللُه الوَاحِدُالقَهَّارُرَبُّ السَّمَاوَاتِ ' +
+                  ' ' +
+                  'وَالَارْضِ وَمَابَيْنَهُمَاالعَزِيْزُالغَفَّارُ',
+              textDirection: TextDirection.rtl,
+              style: largeBlackArabic,
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Container(
-                  // height: 180,
-                  width: MediaQuery.of(context).size.width,
-                  color: Colors.white,
-                  child: Text(
-                    'لَااِلَهَ اِلاَّااللُه الوَاحِدُالقَهَّارُرَبُّ السَّمَاوَاتِ ' +
-                        ' ' +
-                        'وَالَارْضِ وَمَابَيْنَهُمَاالعَزِيْزُالغَفَّارُ',
-                    textDirection: TextDirection.rtl,
-                    style: largeBlackArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                  Icon(
-                    Icons.star,
-                    color: Colors.green,
-                    size: 15,
-                  ),
-                ],
-              ),
-              SizedBox(
-                height: 50,
-              ),
-            ],
-          ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),

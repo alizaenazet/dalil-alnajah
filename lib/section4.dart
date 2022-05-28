@@ -43,19 +43,25 @@ class _Section4State extends State<Section4> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
+        ListView(
             padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(children: [
+            children: [
               SizedBox(
                 height: 40,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text('(4×) ٱللَّٰهُ أَكْبَرُ',
-                    textDirection: TextDirection.rtl, style: largeBlackArabic),
+              Text('(4×) ٱللَّٰهُ أَكْبَرُ',
+                  textDirection: TextDirection.rtl, style: largeBlackArabic),
+              SizedBox(
+                height: 20,
+              ),
+              Divider(height: 1, color: Colors.grey.shade500),
+              SizedBox(
+                height: 20,
+              ),
+              Text(
+                '(2×) أَشْهَدُ أَن لَّا إِلَٰهَ إِلَّا ٱللَّٰهُ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -64,15 +70,10 @@ class _Section4State extends State<Section4> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  '(2×) أَشْهَدُ أَن لَّا إِلَٰهَ إِلَّا ٱللَّٰهُ',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                '(2×) أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -81,15 +82,10 @@ class _Section4State extends State<Section4> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  '(2×) أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                '(2×) حَيَّ عَلَى ٱلصَّلَاةِ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -98,15 +94,10 @@ class _Section4State extends State<Section4> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  '(2×) حَيَّ عَلَى ٱلصَّلَاةِ',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                '(2×) حَيَّ عَلَى ٱلْفَلَاحِ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -115,15 +106,10 @@ class _Section4State extends State<Section4> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  '(2×) حَيَّ عَلَى ٱلْفَلَاحِ',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                '(2×) ٱللَّٰهُ أَكْبَرُ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 20,
@@ -132,32 +118,10 @@ class _Section4State extends State<Section4> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  '(2×) ٱللَّٰهُ أَكْبَرُ',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Divider(height: 1, color: Colors.grey.shade500),
-              SizedBox(
-                height: 20,
-              ),
-              Container(
-                // height: 50,
-                color: color,
-                width: MediaQuery.of(context).size.width,
-                child: Text(
-                  '(1×) لَا إِلَٰهَ إِلَّا ٱللَّٰهُ',
-                  textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
-                ),
+              Text(
+                '(1×) لَا إِلَٰهَ إِلَّا ٱللَّٰهُ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
               ),
               SizedBox(
                 height: 50,
@@ -196,8 +160,6 @@ class _Section4State extends State<Section4> {
                 height: 50,
               ),
             ]),
-          ),
-        ),
         Padding(
           padding: const EdgeInsets.all(15.0),
           child: Column(

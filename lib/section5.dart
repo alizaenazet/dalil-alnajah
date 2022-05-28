@@ -42,90 +42,76 @@ class _Section5State extends State<Section5> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
+        ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          children: [
+            SizedBox(
+              height: 40,
+            ),
+            Text(
+              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+              textDirection: TextDirection.rtl,
+              style: largeGreenArabic,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ',
+              textDirection: TextDirection.rtl,
+              style: largeBlackArabic,
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text(
+                '“Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa at di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar.”',
+                style: GoogleFonts.roboto(
+                    textStyle: TextStyle(
+                        height: 1.5,
+                        color: Colors.grey.shade900,
+                        fontSize: 20)),
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(
-                  height: 40,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                Container(
-                  // height: 50,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-                    textDirection: TextDirection.rtl,
-                    style: largeGreenArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                SizedBox(
-                  height: 20,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                Container(
-                  // height: 500,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ',
-                    textDirection: TextDirection.rtl,
-                    style: largeBlackArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                SizedBox(
-                  height: 30,
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Text(
-                    '“Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa at di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar.”',
-                    style: GoogleFonts.roboto(
-                        textStyle: TextStyle(
-                            height: 1.5,
-                            color: Colors.grey.shade900,
-                            fontSize: 20)),
-                  ),
-                ),
-                SizedBox(
-                  height: 50,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 50,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
               ],
             ),
-          ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),

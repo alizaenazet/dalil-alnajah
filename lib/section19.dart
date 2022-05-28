@@ -38,163 +38,159 @@ class _Section19State extends State<Section19> {
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
+        ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          children: [
+            SizedBox(
+              height: 30,
+            ),
+            Row(
               children: [
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  children: [
-                    Text(
-                      'VISI',
-                      style: GoogleFonts.poppins(
-                          textStyle: TextStyle(
-                              color: Colors.green,
-                              fontSize: 17,
-                              fontWeight: FontWeight.bold)),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5,
-                ),
                 Text(
-                  'Terwujudnya manusia yang unggul,utuh, dan berakhlaqul karimah untuk kemuliaan dan kejayaan islam dan kaum muslimin,kemuliaan dan kejayaan seluruh bangsa Indonesia dan untuk keberhasilan cita-cita kemerdekaan yaitu terwujudnya kesejahteraan dan tegaknya keadilan bagi seluru bangsa Indonesia tanpa terkecuali',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                    height: 1.5,
-                    color: Colors.grey.shade900,
-                    fontSize: 20,
-                  )),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  children: [
-                    Text(
-                      'MISI',
-                      style: GoogleFonts.poppins(
-                          textStyle: TextStyle(
-                              color: Colors.green,
-                              fontSize: 17,
-                              fontWeight: FontWeight.bold)),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5,
-                ),
-                Text(
-                  'Melaksankan sistem yang berlaku di lembaga pendidikan unggulan amanatul ummah secara ketat dan bertanggung jawab , ketat dalam pelaksanaan dan bertanggung jawab atas keberhasilan',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                    height: 1.5,
-                    color: Colors.grey.shade900,
-                    fontSize: 20,
-                  )),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Text(
-                  'TUJUAN PERUNTUKAN SANTRI AMANATUL UMMAH',
+                  'VISI',
                   style: GoogleFonts.poppins(
                       textStyle: TextStyle(
                           color: Colors.green,
                           fontSize: 17,
                           fontWeight: FontWeight.bold)),
                 ),
-                SizedBox(
-                  height: 5,
-                ),
+              ],
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              'Terwujudnya manusia yang unggul,utuh, dan berakhlaqul karimah untuk kemuliaan dan kejayaan islam dan kaum muslimin,kemuliaan dan kejayaan seluruh bangsa Indonesia dan untuk keberhasilan cita-cita kemerdekaan yaitu terwujudnya kesejahteraan dan tegaknya keadilan bagi seluru bangsa Indonesia tanpa terkecuali',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              children: [
                 Text(
-                  '1.  Untuk menjadi ulama besar yang akan bias menerangi dunia dan Indonesia',
-                  style: GoogleFonts.roboto(
+                  'MISI',
+                  style: GoogleFonts.poppins(
                       textStyle: TextStyle(
-                    height: 1.5,
-                    color: Colors.grey.shade900,
-                    fontSize: 20,
-                  )),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Text(
-                  '2.  Untuk menjadi para pemimpin dunia dan pemimpin bangsanya yang akan mengupayakan terwujudnya kesejahteraan dan tegaknya keadilan',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                    height: 1.5,
-                    color: Colors.grey.shade900,
-                    fontSize: 20,
-                  )),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Text(
-                  '3. Untuk menjadi konglomerat besar yang akan memberikan kontribusi maksimal bagi terwujudnya kesejahteraan bangsa Indonesia',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                    height: 1.5,
-                    color: Colors.grey.shade900,
-                    fontSize: 20,
-                  )),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Text(
-                  '4. Untuk menjadi para profesionalis yang berkualitas dan bertanggungjawab',
-                  style: GoogleFonts.roboto(
-                      textStyle: TextStyle(
-                    height: 1.5,
-                    color: Colors.grey.shade900,
-                    fontSize: 20,
-                  )),
-                ),
-                SizedBox(
-                  height: 50,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 50,
+                          color: Colors.green,
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold)),
                 ),
               ],
             ),
-          ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              'Melaksankan sistem yang berlaku di lembaga pendidikan unggulan amanatul ummah secara ketat dan bertanggung jawab , ketat dalam pelaksanaan dan bertanggung jawab atas keberhasilan',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Text(
+              'TUJUAN PERUNTUKAN SANTRI AMANATUL UMMAH',
+              style: GoogleFonts.poppins(
+                  textStyle: TextStyle(
+                      color: Colors.green,
+                      fontSize: 17,
+                      fontWeight: FontWeight.bold)),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              '1.  Untuk menjadi ulama besar yang akan bias menerangi dunia dan Indonesia',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              '2.  Untuk menjadi para pemimpin dunia dan pemimpin bangsanya yang akan mengupayakan terwujudnya kesejahteraan dan tegaknya keadilan',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              '3. Untuk menjadi konglomerat besar yang akan memberikan kontribusi maksimal bagi terwujudnya kesejahteraan bangsa Indonesia',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              '4. Untuk menjadi para profesionalis yang berkualitas dan bertanggungjawab',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),

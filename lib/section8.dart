@@ -34,133 +34,110 @@ class _Section8State extends State<Section8> {
             )),
         title: Text(
           'سورة التوبة : ١٢٨-١٢٩',
-          style: TextStyle(
-              color: Colors.black,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-              fontFamily: LPMQFontFamily),
+          style: arabicTitleStyle,
         ),
       ),
       body: Stack(children: [
-        SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
+        ListView(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          children: [
+            SizedBox(
+              height: 40,
+            ),
+            Text(
+              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+              textDirection: TextDirection.rtl,
+              style: largeGreenArabic,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ' +
+                  '   - ' +
+                  '١٢٨',
+              textDirection: TextDirection.rtl,
+              style: largeBlackArabic,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Divider(height: 1, color: Colors.grey.shade500),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'فَإِن تَوَلَّوْا۟ فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ' +
+                  '  - ' +
+                  '١٢٩',
+              textDirection: TextDirection.rtl,
+              style: largeBlackArabic,
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text(
+                '128:Sungguh, telah datang kepadamu seorang rasul dari kaummu sendiri, berat terasa olehnya penderitaan yang kamu alami, (dia) sangat menginginkan (keimanan dan keselamatan) bagimu, penyantun dan penyayang terhadap orang-orang yang beriman.',
+                style: GoogleFonts.roboto(
+                    textStyle: TextStyle(
+                        height: 1.5,
+                        color: Colors.grey.shade900,
+                        fontSize: 20)),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text(
+                '129:jika mereka berpaling (dari keimanan), maka katakanlah (Muhammad), “Cukuplah Allah bagiku; tidak ada tuhan selain Dia. Hanya kepada-Nya aku bertawakal, dan Dia adalah Tuhan yang memiliki ‘Arsy (singgasana) yang agung.”',
+                style: GoogleFonts.roboto(
+                    textStyle: TextStyle(
+                        height: 1.5,
+                        color: Colors.grey.shade900,
+                        fontSize: 20)),
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(
-                  height: 40,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                Container(
-                  // height: 50,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-                    textDirection: TextDirection.rtl,
-                    style: largeGreenArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                SizedBox(
-                  height: 20,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                Container(
-                  // height: 370,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ' +
-                        '   - ' +
-                        '١٢٨',
-                    textDirection: TextDirection.rtl,
-                    style: largeBlackArabic,
-                  ),
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
-                SizedBox(
-                  height: 20,
-                ),
-                Divider(height: 1, color: Colors.grey.shade500),
-                SizedBox(
-                  height: 20,
-                ),
-                Container(
-                  // height: 150,
-                  color: color,
-                  width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'فَإِن تَوَلَّوْا۟ فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ' +
-                        '  - ' +
-                        '١٢٩',
-                    textDirection: TextDirection.rtl,
-                    style: largeBlackArabic,
-                  ),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Text(
-                    '128:Sungguh, telah datang kepadamu seorang rasul dari kaummu sendiri, berat terasa olehnya penderitaan yang kamu alami, (dia) sangat menginginkan (keimanan dan keselamatan) bagimu, penyantun dan penyayang terhadap orang-orang yang beriman.',
-                    style: GoogleFonts.roboto(
-                        textStyle: TextStyle(
-                            height: 1.5,
-                            color: Colors.grey.shade900,
-                            fontSize: 20)),
-                  ),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Text(
-                    '129:jika mereka berpaling (dari keimanan), maka katakanlah (Muhammad), “Cukuplah Allah bagiku; tidak ada tuhan selain Dia. Hanya kepada-Nya aku bertawakal, dan Dia adalah Tuhan yang memiliki ‘Arsy (singgasana) yang agung.”',
-                    style: GoogleFonts.roboto(
-                        textStyle: TextStyle(
-                            height: 1.5,
-                            color: Colors.grey.shade900,
-                            fontSize: 20)),
-                  ),
-                ),
-                SizedBox(
-                  height: 50,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                    Icon(
-                      Icons.star,
-                      color: Colors.green,
-                      size: 15,
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 50,
+                Icon(
+                  Icons.star,
+                  color: Colors.green,
+                  size: 15,
                 ),
               ],
             ),
-          ),
+            SizedBox(
+              height: 50,
+            ),
+          ],
         ),
         Padding(
           padding: const EdgeInsets.all(15.0),
