@@ -29,3 +29,9 @@ final largeBlackArabic = TextStyle(
   fontWeight: FontWeight.bold,
   fontFamily: LPMQFontFamily,
 );
+
+final arabicTitleStyle = TextStyle(
+    color: Colors.black,
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+    fontFamily: LPMQFontFamily);

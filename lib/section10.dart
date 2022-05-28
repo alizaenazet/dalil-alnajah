@@ -5,6 +5,8 @@ import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'config/consts.dart';
+
 class Section10 extends StatefulWidget {
   const Section10({Key? key}) : super(key: key);
 
@@ -70,9 +72,7 @@ class _Section10State extends State<Section10> {
                   child: Text(
                     'يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْنُ',
                     textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                            color: Colors.grey.shade900, fontSize: size)),
+                    style: largeBlackArabic,
                   ),
                 ),
                 SizedBox(
@@ -122,15 +122,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'الْجِدُّ وَلْمُوْ اَظَبَةْ',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('الْجِدُّ وَلْمُوْ اَظَبَةْ',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,
@@ -149,15 +143,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'مُدَاوَ مَةُ الْوُضُوْءْ',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('مُدَاوَ مَةُ الْوُضُوْءْ',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,
@@ -174,15 +162,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'تَقْلِيْلُ الْغِذَءْ',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('تَقْلِيْلُ الْغِذَءْ',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,
@@ -199,15 +181,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'صَلَا ةُ الْلَيْلْ',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('صَلَا ةُ الْلَيْلْ',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,
@@ -224,15 +200,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'قِرَاءَة ِالْقُرْ اَنِ نَظْرًا',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('قِرَاءَة ِالْقُرْ اَنِ نَظْرًا',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,
@@ -249,15 +219,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'تَرْكُ الْمَعَصِى',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('تَرْكُ الْمَعَصِى',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,
@@ -274,15 +238,9 @@ class _Section10State extends State<Section10> {
                 Container(
                   height: 50,
                   width: MediaQuery.of(context).size.width,
-                  child: Text(
-                    'اَنْ لَا يَأْكُلَ طَعَامَ السُّوْقْ',
-                    textDirection: TextDirection.rtl,
-                    style: GoogleFonts.poppins(
-                        textStyle: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    )),
-                  ),
+                  child: Text('اَنْ لَا يَأْكُلَ طَعَامَ السُّوْقْ',
+                      textDirection: TextDirection.rtl,
+                      style: largeBlackArabic),
                 ),
                 SizedBox(
                   height: 3,

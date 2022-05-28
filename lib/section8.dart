@@ -1,3 +1,4 @@
+import 'package:alizaenaz/config/consts.dart';
 import 'package:alizaenaz/home.dart';
 import 'package:alizaenaz/section7.dart';
 import 'package:alizaenaz/section9.dart';
@@ -33,11 +34,11 @@ class _Section8State extends State<Section8> {
             )),
         title: Text(
           'سورة التوبة : ١٢٨-١٢٩',
-          style: GoogleFonts.poppins(
-              textStyle: TextStyle(
-                  color: Colors.black,
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold)),
+          style: TextStyle(
+              color: Colors.black,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+              fontFamily: LPMQFontFamily),
         ),
       ),
       body: Stack(children: [
@@ -56,10 +57,7 @@ class _Section8State extends State<Section8> {
                   child: Text(
                     'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                        color: Colors.green,
-                        fontSize: size,
-                        fontWeight: FontWeight.bold),
+                    style: largeGreenArabic,
                   ),
                 ),
                 SizedBox(
@@ -74,10 +72,7 @@ class _Section8State extends State<Section8> {
                         '   - ' +
                         '١٢٨',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    ),
+                    style: largeBlackArabic,
                   ),
                 ),
                 SizedBox(
@@ -96,10 +91,7 @@ class _Section8State extends State<Section8> {
                         '  - ' +
                         '١٢٩',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    ),
+                    style: largeBlackArabic,
                   ),
                 ),
                 SizedBox(
