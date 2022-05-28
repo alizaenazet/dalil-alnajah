@@ -44,7 +44,7 @@ class _Section9State extends State<Section9> {
                   height: 40,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -60,7 +60,7 @@ class _Section9State extends State<Section9> {
                   height: 20,
                 ),
                 Container(
-                  height: 260,
+                  // height: 260,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -79,7 +79,7 @@ class _Section9State extends State<Section9> {
                   height: 20,
                 ),
                 Container(
-                  height: 170,
+                  // height: 170,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -98,7 +98,7 @@ class _Section9State extends State<Section9> {
                   height: 20,
                 ),
                 Container(
-                  height: 220,
+                  // height: 220,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -117,7 +117,7 @@ class _Section9State extends State<Section9> {
                   height: 20,
                 ),
                 Container(
-                  height: 220,
+                  // height: 220,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(

@@ -51,7 +51,7 @@ class _Section6State extends State<Section6> {
                   height: 40,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -64,7 +64,7 @@ class _Section6State extends State<Section6> {
                   height: 20,
                 ),
                 Container(
-                  height: 800,
+                  // height: 800,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(

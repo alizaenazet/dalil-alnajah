@@ -345,7 +345,7 @@ class _Section16State extends State<Section16> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -383,7 +383,7 @@ class _Section16State extends State<Section16> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Container(
-                  height: 500,
+                  // height: 500,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(

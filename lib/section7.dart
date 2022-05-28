@@ -52,7 +52,7 @@ class _Section7State extends State<Section7> {
                   height: 40,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -70,7 +70,7 @@ class _Section7State extends State<Section7> {
                   height: 20,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -87,7 +87,7 @@ class _Section7State extends State<Section7> {
                   height: 20,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -104,7 +104,7 @@ class _Section7State extends State<Section7> {
                   height: 20,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -121,7 +121,7 @@ class _Section7State extends State<Section7> {
                   height: 20,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -138,7 +138,7 @@ class _Section7State extends State<Section7> {
                   height: 20,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
@@ -155,7 +155,7 @@ class _Section7State extends State<Section7> {
                   height: 20,
                 ),
                 Container(
-                  height: 150,
+                  // height: 150,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text(

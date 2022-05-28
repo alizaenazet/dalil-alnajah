@@ -51,7 +51,7 @@ class _Section13State extends State<Section13> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Container(
-                  height: 50,
+                  // height: 50,
                   color: color,
                   width: MediaQuery.of(context).size.width,
                   child: Text('بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
@@ -66,7 +66,7 @@ class _Section13State extends State<Section13> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Container(
-                  height: 200,
+                  // height: 200,
                   width: MediaQuery.of(context).size.width,
                   color: Colors.white,
                   child: Text(

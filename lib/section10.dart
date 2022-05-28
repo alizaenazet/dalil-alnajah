@@ -67,7 +67,7 @@ class _Section10State extends State<Section10> {
                   height: 3,
                 ),
                 Container(
-                  height: 100,
+                  // height: 100,
                   width: MediaQuery.of(context).size.width,
                   child: Text(
                     'يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْنُ',
@@ -120,7 +120,7 @@ class _Section10State extends State<Section10> {
                   height: 20,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('الْجِدُّ وَلْمُوْ اَظَبَةْ',
                       textDirection: TextDirection.rtl,
@@ -141,7 +141,7 @@ class _Section10State extends State<Section10> {
                   height: 30,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('مُدَاوَ مَةُ الْوُضُوْءْ',
                       textDirection: TextDirection.rtl,
@@ -160,7 +160,7 @@ class _Section10State extends State<Section10> {
                   height: 30,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('تَقْلِيْلُ الْغِذَءْ',
                       textDirection: TextDirection.rtl,
@@ -179,7 +179,7 @@ class _Section10State extends State<Section10> {
                   height: 30,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('صَلَا ةُ الْلَيْلْ',
                       textDirection: TextDirection.rtl,
@@ -198,7 +198,7 @@ class _Section10State extends State<Section10> {
                   height: 30,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('قِرَاءَة ِالْقُرْ اَنِ نَظْرًا',
                       textDirection: TextDirection.rtl,
@@ -217,7 +217,7 @@ class _Section10State extends State<Section10> {
                   height: 30,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('تَرْكُ الْمَعَصِى',
                       textDirection: TextDirection.rtl,
@@ -236,7 +236,7 @@ class _Section10State extends State<Section10> {
                   height: 30,
                 ),
                 Container(
-                  height: 50,
+                  // height: 50,
                   width: MediaQuery.of(context).size.width,
                   child: Text('اَنْ لَا يَأْكُلَ طَعَامَ السُّوْقْ',
                       textDirection: TextDirection.rtl,
