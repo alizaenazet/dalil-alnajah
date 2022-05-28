@@ -22,3 +22,10 @@ final smallGreenArabic = TextStyle(
   fontWeight: FontWeight.bold,
   fontFamily: LPMQFontFamily,
 );
+
+final largeBlackArabic = TextStyle(
+  color: Colors.black,
+  fontSize: 32,
+  fontWeight: FontWeight.bold,
+  fontFamily: LPMQFontFamily,
+);

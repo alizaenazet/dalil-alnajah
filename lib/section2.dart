@@ -1,3 +1,4 @@
+import 'package:alizaenaz/config/consts.dart';
 import 'package:alizaenaz/home.dart';
 import 'package:alizaenaz/section1.dart';
 import 'package:alizaenaz/section3.dart';
@@ -57,11 +58,7 @@ class _Section2State extends State<Section2> {
                 child: Text(
                   'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                      fontFamily: 'LPMQ',
-                      color: Colors.green,
-                      fontSize: size,
-                      fontWeight: FontWeight.bold),
+                  style: largeGreenArabic,
                 ),
               ),
               SizedBox(
@@ -74,11 +71,7 @@ class _Section2State extends State<Section2> {
                 child: Text(
                   'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ' + '   - ' + '١',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    fontFamily: 'LPMQ',
-                    color: Colors.black,
-                    fontSize: size,
-                  ),
+                  style: largeBlackArabic,
                 ),
               ),
               SizedBox(
@@ -95,11 +88,7 @@ class _Section2State extends State<Section2> {
                 child: Text(
                   'الرَّحْمَنِ الرَّحِيمِ' + '   - ' + '٢',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    fontFamily: 'LPMQisepmisbah',
-                    color: Colors.black,
-                    fontSize: size,
-                  ),
+                  style: largeBlackArabic,
                 ),
               ),
               SizedBox(
@@ -116,10 +105,7 @@ class _Section2State extends State<Section2> {
                 child: Text(
                   'مَالِكِ يَوْمِ الدِّينِ' + '   - ' + '٣',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: size,
-                  ),
+                  style: largeBlackArabic,
                 ),
               ),
               SizedBox(
@@ -136,10 +122,7 @@ class _Section2State extends State<Section2> {
                 child: Text(
                   'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ' + '   - ' + '٤',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: size,
-                  ),
+                  style: largeBlackArabic,
                 ),
               ),
               SizedBox(
@@ -156,10 +139,7 @@ class _Section2State extends State<Section2> {
                 child: Text(
                   'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ' + '   - ' + '٥',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: size,
-                  ),
+                  style: largeBlackArabic,
                 ),
               ),
               SizedBox(
@@ -178,10 +158,7 @@ class _Section2State extends State<Section2> {
                       ' - ' +
                       '٦',
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: size,
-                  ),
+                  style: largeBlackArabic,
                 ),
               ),
               SizedBox(
