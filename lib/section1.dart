@@ -1,3 +1,4 @@
+import 'package:alizaenaz/config/consts.dart';
 import 'package:alizaenaz/home.dart';
 import 'package:alizaenaz/section2.dart';
 import 'package:alizaenaz/section3.dart';
@@ -323,11 +324,7 @@ class _Section1State extends State<Section1> {
                     child: Text(
                       'وَ مَنْ يَتَوَ كَّلْ عَلَ اُللهِ فَهُوَ حَسْبُهُ',
                       textDirection: TextDirection.rtl,
-                      style: GoogleFonts.notoNaskhArabic(
-                          textStyle: TextStyle(
-                        color: Colors.green,
-                        fontSize: 32,
-                      )),
+                      style: bigGreenArabic,
                     ),
                   ),
                 ),
