@@ -1,3 +1,4 @@
+import 'package:alizaenaz/config/consts.dart';
 import 'package:alizaenaz/home.dart';
 import 'package:alizaenaz/section4.dart';
 import 'package:alizaenaz/section6.dart';
@@ -56,10 +57,7 @@ class _Section5State extends State<Section5> {
                   child: Text(
                     'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                        color: Colors.green,
-                        fontSize: size,
-                        fontWeight: FontWeight.bold),
+                    style: largeGreenArabic,
                   ),
                 ),
                 SizedBox(
@@ -72,10 +70,7 @@ class _Section5State extends State<Section5> {
                   child: Text(
                     'ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    ),
+                    style: largeBlackArabic,
                   ),
                 ),
                 SizedBox(
