@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 void main(List<String> args) {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner:false,
-    title: 'د ليل النجاح',
+    debugShowCheckedModeBanner: false,
+    title: "dalil alnajah mobile",
     home: AnimatedSplashScreen(
       nextScreen: Home(),
       splash: Image.asset('assets/logo.png'),
