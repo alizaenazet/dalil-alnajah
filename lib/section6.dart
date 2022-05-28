@@ -1,3 +1,4 @@
+import 'package:alizaenaz/config/consts.dart';
 import 'package:alizaenaz/home.dart';
 import 'package:alizaenaz/section5.dart';
 import 'package:alizaenaz/section7.dart';
@@ -56,10 +57,7 @@ class _Section6State extends State<Section6> {
                   child: Text(
                     'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                        color: Colors.green,
-                        fontSize: size,
-                        fontWeight: FontWeight.bold),
+                    style: largeGreenArabic,
                   ),
                 ),
                 SizedBox(
@@ -72,10 +70,7 @@ class _Section6State extends State<Section6> {
                   child: Text(
                     'ثُمَّ اَنۡزَلَ عَلَيۡكُمۡ مِّنۡۢ بَعۡدِ الۡغَمِّ اَمَنَةً نُّعَاسًا يَّغۡشٰى طَآٮِٕفَةً مِّنۡكُمۡ‌ۙ وَطَآٮِٕفَةٌ قَدۡ اَهَمَّتۡهُمۡ اَنۡفُسُهُمۡ يَظُنُّوۡنَ بِاللّٰهِ غَيۡرَ الۡحَـقِّ ظَنَّ الۡجَـاهِلِيَّةِ‌ؕ يَقُوۡلُوۡنَ هَل لَّنَا مِنَ الۡاَمۡرِ مِنۡ شَىۡءٍ‌ؕ قُلۡ اِنَّ الۡاَمۡرَ كُلَّهٗ لِلّٰهِ‌ؕ يُخۡفُوۡنَ فِىۡۤ اَنۡفُسِهِمۡ مَّا لَا يُبۡدُوۡنَ لَكَ‌ؕ يَقُوۡلُوۡنَ لَوۡ كَانَ لَنَا مِنَ الۡاَمۡرِ شَىۡءٌ مَّا قُتِلۡنَا هٰهُنَا‌ؕ قُل لَّوۡ كُنۡتُمۡ فِىۡ بُيُوۡتِكُمۡ لَبَرَزَ الَّذِيۡنَ كُتِبَ عَلَيۡهِمُ الۡقَتۡلُ اِلٰى مَضَاجِعِهِمۡ‌ۚ وَلِيَبۡتَلِىَ اللّٰهُ مَا فِىۡ صُدُوۡرِكُمۡ وَلِيُمَحِّصَ مَا فِىۡ قُلُوۡبِكُمۡ‌ؕ وَاللّٰهُ عَلِيۡمٌۢ بِذَاتِ الصُّدُوۡرِ',
                     textDirection: TextDirection.rtl,
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: size,
-                    ),
+                    style: largeBlackArabic,
                   ),
                 ),
                 SizedBox(
