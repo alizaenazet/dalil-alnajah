@@ -5,28 +5,24 @@ const String LPMQFontFamily = 'LPMQ Isep Misbah';
 final mediumGreenArabic = TextStyle(
   color: Colors.green,
   fontSize: 20,
-  fontWeight: FontWeight.bold,
   fontFamily: LPMQFontFamily,
 );
 
 final largeGreenArabic = TextStyle(
   color: Colors.green,
   fontSize: 32,
-  fontWeight: FontWeight.bold,
   fontFamily: LPMQFontFamily,
 );
 
 final smallGreenArabic = TextStyle(
   color: Colors.green,
   fontSize: 16,
-  fontWeight: FontWeight.bold,
   fontFamily: LPMQFontFamily,
 );
 
 final largeBlackArabic = TextStyle(
   color: Colors.black,
   fontSize: 32,
-  fontWeight: FontWeight.bold,
   fontFamily: LPMQFontFamily,
 );
 
@@ -35,3 +31,17 @@ final arabicTitleStyle = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.bold,
     fontFamily: LPMQFontFamily);
+
+const largeBoldGreenArabic = TextStyle(
+  color: Colors.green,
+  fontSize: 32,
+  fontWeight: FontWeight.bold,
+  fontFamily: LPMQFontFamily,
+);
+
+const largeBoldOrangeArabic = TextStyle(
+  color: Colors.orange,
+  fontSize: 32,
+  fontWeight: FontWeight.bold,
+  fontFamily: LPMQFontFamily,
+);

@@ -5,6 +5,8 @@ import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'config/consts.dart';
+
 class Section17 extends StatefulWidget {
   const Section17({Key? key}) : super(key: key);
 
@@ -67,11 +69,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'إِتَّخِذْلَيْلاًجَمَلاً٠تُدْرِكْ بِهِ عَمَلاً',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle: TextStyle(
-                    color: Colors.black,
-                    fontSize: size,
-                  )),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 10,
@@ -91,9 +89,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'اَلَيْسَ مِنَ الْحُسْرَانِ أَنَّ لَيَالِيًاتَمُرُّبِلاَنَفْعٍ وَتُحْسَبُ مِنَ الْعُمُرِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 10,
@@ -140,9 +136,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'تَزَوَّدُوْافِيْ الْعِلْمِ وَالْإِيْمَانِ تَفَقَّهُوافِي الدِّيْنِوَالْقُرْأَنِ(٢كلي)',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 40,
@@ -367,16 +361,12 @@ class _Section17State extends State<Section17> {
                 Text(
                   'إِخْذَرُوْامَعَاشِرَالشُّبَّانِ  #   وَاجْتَنِبُوْارَوَائِعَ الزَّمَانِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'وَاتَّقُوْارَبَّكُمُ الرَّحْمَنِ   #   مَادَمَتِ الأْوَاحُ فِي الْأَبْدَانِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 15,
@@ -396,9 +386,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'تَزَوَّدُوْافِي الْعِلْمِ وَاالإِيْمَانِ  #  تَفَقَّهُوْافِي الدِّيْنِ وَالْقُرْأَنِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 15,
@@ -418,9 +406,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'إِجْتَهِدُوْاأَيَّاالشُّبَّانِ   #   قَبْلَ الْأَجْسَادِكُمْدَانٍ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 30,
@@ -503,16 +489,12 @@ class _Section17State extends State<Section17> {
                 Text(
                   'بِقَدْرِالْكَدِّتُكْتَسَبُ الْمَعَالِيْ   #   وَمَنْ طَلَبَ الْعُلَى مسَهَرَالَّيَالِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'وَمَنْ طَلَبَ الْعُلَى مِنْ غَيْرِكَدِّ#اَضَاعَ الْعُمُرَفِي طَلَبِ الْمُحَالِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 10,
@@ -584,9 +566,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'إِتَّخِذْلَيْلاًجَمَلاً  #   تُدْرِكْ بِهِ أَمَلاً',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 20,
@@ -632,9 +612,7 @@ class _Section17State extends State<Section17> {
                 Text(
                   'أَلَيْسَ مِنَ الْحُسْرَانِأَنَّ لَيَالِيًا # تَمُرُّبِلَانَفْعٍ وَتُحْسَبُ مِنَ الْعُمْرِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 20,
@@ -944,37 +922,27 @@ class _Section17State extends State<Section17> {
                 Text(
                   'تَعَلَّمْ فَإِنَّ الْعِلْمَ زَيْنٌ لِأَهْلِهِ # وَفَضْلٌ وَعُنْوَانٌ لِكُلِّ الْمَحَامِدِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'وَكُنْ مُسْتَفِدًاكُلِّ يَوْمٍ زِيَادَةً# مِنَالْعِلْمِ وِاصْبَحْفِي بُخُوْرِالْفَوَائِدِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'تَفَقَّهُ فَإِنَّالْفِقْهَ أَفْضَلُ قَائِدِ # إِلَىالْبِرِّوَالتَّقْوَى وَأَعْدَلُ قَاصِدِيْ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'هُوَالْعِلْمُ الْهَادِي إِلَى سُنَنِ الْهُدى#هُوَالحِصْنُ يُنْجِيْ مِنْ جَمِيعِ الشَّدَائِدِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'فَإِنَّ فَقِيْهًاوَاحِدًامُتَوَرَّعًا # أَشَدُّعَلَ الشَّيْطَانِ مِنْ أَلِفِ عَابِدِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 15,
@@ -994,16 +962,12 @@ class _Section17State extends State<Section17> {
                 Text(
                   'اَلاَلاَتَنَالُ الْعِلْمَ إِلاَّبِسِتَّةِ # سَأُنْبِيْكَ عَنْ مَجْمُوْعِهَابِبَيَانِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'ذَكَاءٍوَحِرْصٍ وَاصْطِبَارٍوَبُلْغَةٍ # وَإِرْشَادِأُسْتَاذِوَطُوْلِ زَمَانِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 15,
@@ -1011,16 +975,12 @@ class _Section17State extends State<Section17> {
                 Text(
                   '******',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 Text(
                   'شَكَوْتُ إِلَى وَقِيْعٍ سُوْءَحِفْظِيْ # فَأَرْشَدَنِي إِلَى تَرْكِ الْمَعَاصِ',
                   textDirection: TextDirection.rtl,
-                  style: GoogleFonts.poppins(
-                      textStyle:
-                          TextStyle(color: Colors.black, fontSize: size)),
+                  style: largeBlackArabic,
                 ),
                 SizedBox(
                   height: 50,
