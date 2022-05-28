@@ -324,7 +324,7 @@ class _Section1State extends State<Section1> {
                     child: Text(
                       'وَ مَنْ يَتَوَ كَّلْ عَلَ اُللهِ فَهُوَ حَسْبُهُ',
                       textDirection: TextDirection.rtl,
-                      style: bigGreenArabic,
+                      style: largeGreenArabic,
                     ),
                   ),
                 ),

@@ -9,7 +9,7 @@ final mediumGreenArabic = TextStyle(
   fontFamily: LPMQFontFamily,
 );
 
-final bigGreenArabic = TextStyle(
+final largeGreenArabic = TextStyle(
   color: Colors.green,
   fontSize: 32,
   fontWeight: FontWeight.bold,
