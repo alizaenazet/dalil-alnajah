@@ -33,7 +33,7 @@ class _Section16State extends State<Section16> {
               size: 25,
             )),
         title: Text(
-          'أستغاثة أمانة الأمة',
+          'إستغاثة مانة الأمة ',
           style: arabicTitleStyle,
         ),
       ),
