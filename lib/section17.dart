@@ -73,7 +73,7 @@ class _Section17State extends State<Section17> {
               height: 10,
             ),
             Text(
-              'Jadikan pemuda harapan,shalat malam sebagai kendaraan dengannya kamu mendapatkan,apa saja yang dicita-citakan”(2×)',
+              'Jadikan pemuda harapan,shalat malam sebagai kendaraan dengannya kamu mendapatkan, apa saja yang dicita-citakan”(2×)',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                 height: 1.5,
