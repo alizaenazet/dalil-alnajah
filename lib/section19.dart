@@ -60,7 +60,7 @@ class _Section19State extends State<Section19> {
               height: 5,
             ),
             Text(
-              'Terwujudnya manusia yang unggul,utuh, dan berakhlaqul karimah untuk kemuliaan dan kejayaan islam dan kaum muslimin,kemuliaan dan kejayaan seluruh bangsa Indonesia dan untuk keberhasilan cita-cita kemerdekaan yaitu terwujudnya kesejahteraan dan tegaknya keadilan bagi seluru bangsa Indonesia tanpa terkecuali',
+              'Terwujudnya manusia yang unggul, utuh, dan berakhlaqul karimah untuk kemuliaan dan kejayaan islam dan kaum muslimin, kemuliaan dan kejayaan seluruh bangsa Indonesia dan untuk keberhasilan cita-cita kemerdekaan yaitu terwujudnya kesejahteraan dan tegaknya keadilan bagi seluru bangsa Indonesia tanpa terkecuali',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                 height: 1.5,
@@ -87,7 +87,7 @@ class _Section19State extends State<Section19> {
               height: 5,
             ),
             Text(
-              'Melaksankan sistem yang berlaku di lembaga pendidikan unggulan amanatul ummah secara ketat dan bertanggung jawab , ketat dalam pelaksanaan dan bertanggung jawab atas keberhasilan',
+              'Melaksanakan sistem yang berlaku di lembaga pendidikan unggulan amanatul ummah secara ketat dan bertanggung jawab, ketat dalam pelaksanaan dan bertanggung jawab atas keberhasilan',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                 height: 1.5,
@@ -110,7 +110,7 @@ class _Section19State extends State<Section19> {
               height: 5,
             ),
             Text(
-              '1.  Untuk menjadi ulama besar yang akan bias menerangi dunia dan Indonesia',
+              '1.  Untuk menjadi ulama besar yang akan bisa menerangi dunia dan Indonesia',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                 height: 1.5,
