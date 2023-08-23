@@ -33,7 +33,7 @@ class _Section4State extends State<Section4> {
               size: 25,
             )),
         title: Text(
-          'ادان',
+          'آذان',
           style: TextStyle(
             color: Colors.black,
             fontSize: 18,
@@ -95,7 +95,7 @@ class _Section4State extends State<Section4> {
                 height: 20,
               ),
               Text(
-                '(2×) حَيَّ عَلَى ٱلْفَلَاحِ',
+                '(2×) حَيَّ عَلىَ الْفَلاَح',
                 textDirection: TextDirection.rtl,
                 style: largeBlackArabic,
               ),
