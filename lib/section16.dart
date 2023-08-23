@@ -117,7 +117,7 @@ class _Section16State extends State<Section16> {
               height: 50,
             ),
             Text(
-              'سُبْحَانَ اللهِ وَالْحَمْدُ للهِ وَلاَإلَهَ إلاَّ اللهُ أكْبَرُ ' +
+              'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
               style: largeBlackArabic,
