@@ -934,7 +934,7 @@ class _Section17State extends State<Section17> {
               height: 20,
             ),
             Text(
-              'اَلاَلاَتَنَالُ الْعِلْمَ إِلاَّبِسِتَّةِ # سَأُنْبِيْكَ عَنْ مَجْمُوْعِهَابِبَيَانِ',
+              'اَلاَلاَتَنَالُ الْعِلْمَ إِلاَّبِسِتَّةِ # سَأُنْبِيْكَ عَنْ مَجْمُوْعِهَا بِبَيَانٍ',
               textDirection: TextDirection.rtl,
               style: largeBlackArabic,
             ),
