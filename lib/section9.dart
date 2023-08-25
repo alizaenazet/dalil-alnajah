@@ -132,7 +132,7 @@ class _Section9State extends State<Section9> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Text(
-                '23:Dialah Allah tidak ada tuhan selain Dia. Maharaja, Yang Mahasuci, Yang Mahasejahtera, Yang Menjaga Keamanan, Pemelihara Keselamatan, Yang Mahaperkasa, Yang Mahakuasa, Yang Memiliki Segala Keagungan, Mahasuci Allah dari apa yang mereka persekutukan.',
+                '23:Dialah Allah tidak ada tuhan selain Dia. Dia(adalah) Maha Raja, Yang Mahasuci, Yang Mahasejahtera, Yang Menjaga Keamanan, Pemelihara Keselamatan, Yang Mahaperkasa, Yang Mahakuasa, Yang Memiliki Segala Keagungan, Mahasuci Allah dari apa yang mereka persekutukan.',
                 style: GoogleFonts.roboto(
                     textStyle: TextStyle(
                         height: 1.5,
