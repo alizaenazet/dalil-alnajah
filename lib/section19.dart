@@ -87,7 +87,7 @@ class _Section19State extends State<Section19> {
               height: 5,
             ),
             Text(
-              'Melaksankan sistem yang berlaku di lembaga pendidikan unggulan amanatul ummah secara ketat dan bertanggung jawab , ketat dalam pelaksanaan dan bertanggung jawab atas keberhasilan',
+              'Melaksanakan sistem yang berlaku di Lembaga Pendidikan Unggulan Amanatul Ummah secara ketat dan bertanggung jawab, ketat dalam pelaksanaan dan bertanggung jawab atas keberhasilan',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                 height: 1.5,
