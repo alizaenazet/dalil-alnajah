@@ -621,8 +621,8 @@ class _Section17State extends State<Section17> {
               // textDirection: TextDirection.rtl,
               style: GoogleFonts.poppins(
                   textStyle: TextStyle(
-                color: Colors.grey.shade700,
-                fontSize: 15,
+                color: Colors.grey.shade900,
+                fontSize: 20,
               )),
             ),
             SizedBox(
