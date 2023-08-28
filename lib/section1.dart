@@ -45,7 +45,7 @@ class _Section1State extends State<Section1> {
           padding: const EdgeInsets.all(13.0),
           children: [
             Text(
-              'Buku yang di beri nama Dalil al-Najah ini adalah istighotsah yang di baca oleh para santri, dan siswa-siswi Lembaga Pendidikan Unggulan Amanatul Ummah pada setiap apel pagi pukul 06.45 WIB sampai 07.15 WIB, yang di selenggarakan setiap pagi untuk mengawali belajar di Madarasah atau Sekolah pada Lembaga Pendidikan Unggualan Amanatul Ummah. Kitab ini memuat istighotsah yang ditulis secara urut sebagai berikut:',
+              'Buku yang di beri nama Dalil al-Najah ini adalah istighotsah yang di baca oleh para santri, dan siswa-siswi Lembaga Pendidikan Unggulan Amanatul Ummah pada setiap apel pagi pukul 06.45 WIB sampai 07.15 WIB, yang diselenggarakan setiap pagi untuk mengawali belajar di Madrasah atau Sekolah pada Lembaga Pendidikan Unggulan Amanatul Ummah. Kitab ini memuat istighotsah yang ditulis secara urut sebagai berikut:',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                       height: 1.5,
@@ -280,7 +280,7 @@ class _Section1State extends State<Section1> {
               height: 5,
             ),
             Text(
-              'Ayat-ayat ini dibaca agar Lembagga Pendidikan Unggulan Amanatul Ummah dan Seluruh santri, siswa-siswi yang membawakan cita-cita luhur dan cita-cita besar senantiasa terlindungi oleh Allah dari setiap upaya yang berusaha untuk mematahkannya.',
+              'Ayat-ayat ini dibaca agar Lembaga Pendidikan Unggulan Amanatul Ummah dan Seluruh santri, siswa-siswi yang membawakan cita-cita luhur dan cita-cita besar senantiasa terlindungi oleh Allah dari setiap upaya yang berusaha untuk mematahkannya.',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                       height: 1.5,

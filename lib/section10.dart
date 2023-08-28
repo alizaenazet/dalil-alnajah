@@ -121,7 +121,7 @@ class _Section10State extends State<Section10> {
               height: 3,
             ),
             Text(
-              ' (Bersungguh sungguh dan ajeg dlm berkesungguhan)',
+              ' (Bersungguh sungguh dan ajeg dalam berkesungguhan)',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                       height: 1.5, color: Colors.grey.shade900, fontSize: 20)),

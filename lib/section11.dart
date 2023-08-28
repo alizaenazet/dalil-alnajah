@@ -69,7 +69,7 @@ class _Section11State extends State<Section11> {
                 width: MediaQuery.of(context).size.width,
                 color: Colors.white,
                 child: Text(
-                    'سُبحْانَ الذِّيْ لَبِسَ العِزَّ وَقاَلَ بهِ سُبحْانَ الذِّيْ' +
+                    'سُبحْانَ الَّذِىْ لَبِسَ العِزَّ وَقاَلَ بهِ سُبحْانَ الذِّيْ' +
                         ' ' +
                         'تعَطَفَّ باِلمَجْدِ وَتكَرَّمَ بهِ سُبْحَانَ الذِّيْ  احْصَى كُلَّ' +
                         '  ' +
