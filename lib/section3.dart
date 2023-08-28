@@ -797,7 +797,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Text(
-                'فَٱلْيَوْمَ لَا تُظْلَمُ نَفْسٌۭ شَيْـًۭٔا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ' +
+                'إِنَّ أَصْحَـٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍۢ فَـٰكِهُونَ' +
                     ' - ' +
                     '٥٥',
                 textDirection: TextDirection.rtl,
@@ -811,7 +811,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Text(
-                'إِنَّ أَصْحَـٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍۢ فَـٰكِهُونَ' +
+                'هُمْ وَأَزْوَٰجُهُمْ فِى ظِلَـٰلٍ عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ' +
                     ' - ' +
                     '٥٦',
                 textDirection: TextDirection.rtl,
@@ -825,7 +825,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Text(
-                'هُمْ وَأَزْوَٰجُهُمْ فِى ظِلَـٰلٍ عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ' +
+                'لَهُمْ فِيهَا فَـٰكِهَةٌۭ وَلَهُم مَّا يَدَّعُونَ' +
                     ' - ' +
                     '٥٧',
                 textDirection: TextDirection.rtl,
@@ -839,7 +839,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Text(
-                'لَهُمْ فِيهَا فَـٰكِهَةٌۭ وَلَهُم مَّا يَدَّعُونَ' +
+                'سَلٰمٌۗ قَوْلًا مِّنْ رَّبٍّ رَّحِيْمٍ' +
                     ' - ' +
                     '٥٨',
                 textDirection: TextDirection.rtl,
@@ -853,7 +853,7 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Text(
-                'سَلَـٰمٌۭ قَوْلًۭا مِّن رَّبٍّۢ رَّحِيمٍۢ' + ' - ' + '٥٩',
+                'وَامْتَازُوا الْيَوْمَ اَيُّهَا الْمُجْرِمُوْنَ' + ' - ' + '٥٩',
                 textDirection: TextDirection.rtl,
                 style: largeBlackArabic,
               ),
