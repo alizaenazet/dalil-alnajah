@@ -61,7 +61,7 @@ class _Section13State extends State<Section13> {
                   ' ' +
                   'هُمْ وَ وَ فِّقْهُمْ لِطَا عَتِكَ وَارْزُ قْنِيْ بِرَّ هُمْ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
