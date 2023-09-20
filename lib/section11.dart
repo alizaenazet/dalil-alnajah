@@ -87,7 +87,7 @@ class _Section11State extends State<Section11> {
                         '  ' +
                         'عَلىَ سَّيدِناَ مَحَمَّدٍ وَعَلىَ  الِ سَّيدِناَ مَحَمَّدٍ',
                     textDirection: TextDirection.rtl,
-                    style: largeBlackArabic),
+                    style: largeBlackArabic.copyWith(height: 2.2)),
               ),
             ),
             Padding(
