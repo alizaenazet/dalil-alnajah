@@ -54,7 +54,7 @@ class _Section9State extends State<Section9> {
                   '   - ' +
                   '٢١',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -68,7 +68,7 @@ class _Section9State extends State<Section9> {
                   '   - ' +
                   '٢٢',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -82,7 +82,7 @@ class _Section9State extends State<Section9> {
                   '   - ' +
                   '٢٣',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -96,7 +96,7 @@ class _Section9State extends State<Section9> {
                   '   - ' +
                   '٢٤',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 30,
