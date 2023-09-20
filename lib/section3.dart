@@ -59,7 +59,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'يسٓ' + '   - ' + '١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -71,7 +71,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'وَٱلْقُرْءَانِ ٱلْحَكِيمِ' + '   - ' + '٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -83,7 +83,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ' + '   - ' + '٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -95,7 +95,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ' + '   - ' + '٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -107,7 +107,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ' + '   - ' + '٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -121,7 +121,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -135,7 +135,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -149,7 +149,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -163,7 +163,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -177,7 +177,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -191,7 +191,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -205,7 +205,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -219,7 +219,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -233,7 +233,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -247,7 +247,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -261,7 +261,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -273,7 +273,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'وَمَا عَلَيْنَآ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ' + ' - ' + '١٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -287,7 +287,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '١٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -301,7 +301,7 @@ class _Section3State extends State<Section3> {
                     ' -' +
                     '١٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -315,7 +315,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -329,7 +329,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -343,7 +343,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -357,7 +357,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -369,7 +369,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'إِنِّىٓ إِذًۭا لَّفِى ضَلَـٰلٍۢ مُّبِينٍ' + ' - ' + '٢٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -381,7 +381,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ' + ' - ' + '٢٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -395,7 +395,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -409,7 +409,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -423,7 +423,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -437,7 +437,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٢٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -451,7 +451,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -465,7 +465,7 @@ class _Section3State extends State<Section3> {
                     '-' +
                     '٣١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -479,7 +479,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -493,7 +493,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -507,7 +507,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -521,7 +521,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -535,7 +535,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -549,7 +549,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -563,7 +563,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -577,7 +577,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٣٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -591,7 +591,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -605,7 +605,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -619,7 +619,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -633,7 +633,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -647,7 +647,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -661,7 +661,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -675,7 +675,7 @@ class _Section3State extends State<Section3> {
                     '-' +
                     '٤٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -689,7 +689,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -703,7 +703,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -717,7 +717,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٤٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -731,7 +731,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -745,7 +745,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -759,7 +759,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -773,7 +773,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -787,7 +787,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -801,7 +801,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -815,7 +815,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -829,7 +829,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٥٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -839,23 +839,23 @@ class _Section3State extends State<Section3> {
                 height: 20,
               ),
               Text(
-                'سَلٰمٌۗ قَوْلًا مِّنْ رَّبٍّ رَّحِيْمٍ' +
+                'سَلٰمٌۗ قَوْلًا مِّنْ رَّبٍّ رَّحِيْمٍ' + ' - ' + '٥٨',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic.copyWith(height: 2.2),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Divider(height: 1, color: Colors.grey.shade500),
+              SizedBox(
+                height: 20,
+              ),
+              Text(
+                'وَامْتَازُوا الْيَوْمَ اَيُّهَا الْمُجْرِمُوْنَ' +
                     ' - ' +
-                    '٥٨',
+                    '٥٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Divider(height: 1, color: Colors.grey.shade500),
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                'وَامْتَازُوا الْيَوْمَ اَيُّهَا الْمُجْرِمُوْنَ' + ' - ' + '٥٩',
-                textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -869,7 +869,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -883,7 +883,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -897,7 +897,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -909,7 +909,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى كُنتُمْ تُوعَدُونَ' + ' - ' + '٦٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -921,7 +921,7 @@ class _Section3State extends State<Section3> {
               Text(
                 'ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ' + ' - ' + '٦٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -935,7 +935,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -949,7 +949,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -963,7 +963,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -977,7 +977,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -991,7 +991,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٦٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1005,7 +1005,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1019,7 +1019,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1033,7 +1033,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1047,7 +1047,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1061,7 +1061,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٤',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1075,7 +1075,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٥',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1089,7 +1089,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٦',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1103,7 +1103,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٧',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1117,7 +1117,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٨',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1131,7 +1131,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٧٩',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1145,7 +1145,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٨٠',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1159,7 +1159,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٨١',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1173,7 +1173,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٨٢',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 20,
@@ -1187,7 +1187,7 @@ class _Section3State extends State<Section3> {
                     ' - ' +
                     '٨٣',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic,
+                style: largeBlackArabic.copyWith(height: 2.2),
               ),
               SizedBox(
                 height: 50,
