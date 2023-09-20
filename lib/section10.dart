@@ -114,7 +114,7 @@ class _Section10State extends State<Section10> {
             Container(
               // height: 50,
               width: MediaQuery.of(context).size.width,
-              child: Text('الْجِدُّ وَالْمُوَاظَبَة',
+              child: Text('الْجِدُّ وَلْمُوْ اَظَبَةْ',
                   textDirection: TextDirection.rtl, style: largeBlackArabic),
             ),
             SizedBox(
