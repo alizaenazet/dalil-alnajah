@@ -67,7 +67,7 @@ class _Section17State extends State<Section17> {
             Text(
               'إِتَّخِذْلَيْلاًجَمَلاً٠تُدْرِكْ بِهِ عَمَلاً',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 10,
@@ -87,7 +87,7 @@ class _Section17State extends State<Section17> {
             Text(
               'اَلَيْسَ مِنَ الْحُسْرَانِ أَنَّ لَيَالِيًاتَمُرُّبِلاَنَفْعٍ وَتُحْسَبُ مِنَ الْعُمُرِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 10,
@@ -120,22 +120,24 @@ class _Section17State extends State<Section17> {
               height: 10,
             ),
             Text(
-                'إِخْذَرُوْامَعَاشِرَالشُّبَّانِ وَاجْتَنِبُوْارَوَائِعَ الزَّمَانِ وَاتَّقُوْارَبَّكُمُ الرَّحْمَنِ مَادَمَتِاالْأَرْوَاحُ فِيْ الْأَبْدَانِ(٢كلي)',
+                'إِخْذَرُوْامَعَاشِرَالشُّبَّانِ\nوَاجْتَنِبُوْارَوَائِعَ الزَّمَانِ\nوَاتَّقُوْارَبَّكُمُ الرَّحْمَنِ\nمَادَمَتِاالْأَرْوَاحُ فِيْ الْأَبْدَانِ(٢كلي)',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic),
+                style: largeBlackArabic.copyWith(height: 2.2)),
             SizedBox(
               height: 40,
             ),
             Text(
-              'تَزَوَّدُوْافِيْ الْعِلْمِ وَالْإِيْمَانِ تَفَقَّهُوافِي الدِّيْنِوَالْقُرْأَنِ(٢كلي)',
+              'تَزَوَّدُوْافِيْ الْعِلْمِ وَالْإِيْمَانِ\nتَفَقَّهُوافِي الدِّيْنِوَالْقُرْأَنِ(٢كلي)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 40,
             ),
-            Text('إِجْتَهِدُوْاأَيَّاالشُّبَّانِقِبْلَالْأَجْسَادِكُمْ دَانٍ',
-                textDirection: TextDirection.rtl, style: largeBlackArabic),
+            Text(
+                'إِجْتَهِدُوْاأَيَّاالشُّبَّانِ\n قَبْلَالْأَجْسَادِكُمْ دَانٍ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic.copyWith(height: 2.2)),
             SizedBox(
               height: 10,
             ),
@@ -321,9 +323,26 @@ class _Section17State extends State<Section17> {
               height: 10,
             ),
             Text(
-              'تَعَلَّمْ فَإِنَّ الْعِلْمَ زَيْنٌ لِأَهْلِهِ وَفَضْلٌ وَعُنْوَانٌ لِكُلِّ الْمَحَامِدِ وَكُنْ مُسْتَفِدًاكٌلَّ يَوْمٍ زِيَادَةً مِنَ الْعِلْمِ وَاصْبَحْ فِيْ بُخُوْرِالْفَوَائِدِالْبِرِّوَالتَّقْوَى وَأَعَدَلُ قَصِدِيْ هُوَالْعِلْمُ الْهَادِيْ إِلَى سُنَنِ الْهُدَى هُوَالْحِصْنُ يُنْجِيْ مِنْ جَمِيْعِ الشَّدَائِدِ فَإِنَّ فَقِيْهًاوَاحِدًامُتَوَرِّعًاأَشَدُّعَلَى الشَّيْطَانِ  مِنْ أَلْفِ عَابِدِاَلاَلاَ تَنَالُ الْعِلْمَ إِلاَّبِسِتَّةٍ سَأُنْبِيْكَ عَنْ مَجْمُوْعِهَابِبَيَانِ ذَكَاءٍوَحِرْصٍ وَاصْطِبَارٍوَبُلْغَةٍ وَإِرْشَادِاُسْتَاذٍوَطُوْلِ زَمَانِ شَكَوْتُ إِلَى وَقِيْعٍ سُوْءَحِفْظِيْ فَأَرْشَدَنِيْ إِلَى تَرْكِ المَعَاصِيْ فَإِنَّ الْحِفْظَ فَضْلٌ مِنْ إِلَهٍ وَفَضْلُ اللّهِ لاَيُعْطَى لِلْعَاصِيْ',
+              ('\nتَعَلَّمْ فَإِنَّ الْعِلْمَ زَيْنٌ لِأَهْلِهِ' +
+                  '\nوَفَضْلٌ وَعُنْوَانٌ لِكُلِّ الْمَحَامِدِ' +
+                  '\nوَكُنْ مُسْتَفِدًاكٌلَّ يَوْمٍ زِيَادَةً' +
+                  '\nمِنَ الْعِلْمِ وَاصْبَحْ فِيْ بُخُوْرِالْفَوَائِدِ' +
+                  '\nتَفَقَّهۡ فَإِنَّ الۡفِقۡهَ أَفۡضَلُ قَائِدِ' +
+                  '\nالْبِرِّوَالتَّقْوَى وَأَعَدَلُ قَصِدِيْ' +
+                  '\nهُوَالْعِلْمُ الْهَادِيْ إِلَى سُنَنِ الْهُدَى' +
+                  '\nهُوَالْحِصْنُ يُنْجِيْ مِنْ جَمِيْعِ الشَّدَائِدِ' +
+                  '\nفَإِنَّ فَقِيْهًاوَاحِدًامُتَوَرِّعًا' +
+                  '\nأَشَدُّعَلَى الشَّيْطَانِ  مِنْ أَلْفِ عَابِدِ' +
+                  '\nاَلاَلاَ تَنَالُ الْعِلْمَ إِلاَّبِسِتَّةٍ' +
+                  '\nسَأُنْبِيْكَ عَنْ مَجْمُوْعِهَابِبَيَانِ' +
+                  '\nذَكَاءٍوَحِرْصٍ وَاصْطِبَارٍوَبُلْغَةٍ' +
+                  '\nوَإِرْشَادِاُسْتَاذٍوَطُوْلِ زَمَانِ' +
+                  '\nشَكَوْتُ إِلَى وَقِيْعٍ سُوْءَحِفْظِيْ' +
+                  '\nفَأَرْشَدَنِيْ إِلَى تَرْكِ المَعَاصِيْ' +
+                  '\nفَإِنَّ الْحِفْظَ فَضْلٌ مِنْ إِلَهٍ' +
+                  '\nوَفَضْلُ اللّهِ لاَيُعْطَى لِلْعَاصِيْ'),
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 15,
@@ -343,12 +362,12 @@ class _Section17State extends State<Section17> {
             Text(
               'إِخْذَرُوْامَعَاشِرَالشُّبَّانِ  #   وَاجْتَنِبُوْارَوَائِعَ الزَّمَانِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'وَاتَّقُوْارَبَّكُمُ الرَّحْمَنِ   #   مَادَمَتِ الأْوَاحُ فِي الْأَبْدَانِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 15,
@@ -364,7 +383,7 @@ class _Section17State extends State<Section17> {
             Text(
               'تَزَوَّدُوْافِي الْعِلْمِ وَاالإِيْمَانِ  #  تَفَقَّهُوْافِي الدِّيْنِ وَالْقُرْأَنِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 15,
@@ -380,7 +399,7 @@ class _Section17State extends State<Section17> {
             Text(
               'إِجْتَهِدُوْاأَيَّاالشُّبَّانِ   #   قَبْلَ الْأَجْسَادِكُمْدَانٍ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 30,
@@ -463,12 +482,12 @@ class _Section17State extends State<Section17> {
             Text(
               'بِقَدْرِالْكَدِّتُكْتَسَبُ الْمَعَالِيْ   #   وَمَنْ طَلَبَ الْعُلَى مسَهَرَالَّيَالِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'وَمَنْ طَلَبَ الْعُلَى مِنْ غَيْرِكَدِّ#اَضَاعَ الْعُمُرَفِي طَلَبِ الْمُحَالِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 10,
@@ -540,7 +559,7 @@ class _Section17State extends State<Section17> {
             Text(
               'إِتَّخِذْلَيْلاًجَمَلاً  #   تُدْرِكْ بِهِ أَمَلاً',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -586,7 +605,7 @@ class _Section17State extends State<Section17> {
             Text(
               'أَلَيْسَ مِنَ الْحُسْرَانِأَنَّ لَيَالِيًا # تَمُرُّبِلَانَفْعٍ وَتُحْسَبُ مِنَ الْعُمْرِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -896,27 +915,27 @@ class _Section17State extends State<Section17> {
             Text(
               'تَعَلَّمْ فَإِنَّ الْعِلْمَ زَيْنٌ لِأَهْلِهِ # وَفَضْلٌ وَعُنْوَانٌ لِكُلِّ الْمَحَامِدِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'وَكُنْ مُسْتَفِدًاكُلِّ يَوْمٍ زِيَادَةً# مِنَالْعِلْمِ وِاصْبَحْفِي بُخُوْرِالْفَوَائِدِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'تَفَقَّهُ فَإِنَّالْفِقْهَ أَفْضَلُ قَائِدِ # إِلَىالْبِرِّوَالتَّقْوَى وَأَعْدَلُ قَاصِدِيْ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'هُوَالْعِلْمُ الْهَادِي إِلَى سُنَنِ الْهُدى#هُوَالحِصْنُ يُنْجِيْ مِنْ جَمِيعِ الشَّدَائِدِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'فَإِنَّ فَقِيْهًاوَاحِدًامُتَوَرَّعًا # أَشَدُّعَلَ الشَّيْطَانِ مِنْ أَلِفِ عَابِدِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 15,
@@ -936,12 +955,12 @@ class _Section17State extends State<Section17> {
             Text(
               'اَلاَلاَتَنَالُ الْعِلْمَ إِلاَّبِسِتَّةِ # سَأُنْبِيْكَ عَنْ مَجْمُوْعِهَا بِبَيَانٍ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             Text(
               'ذَكَاءٍوَحِرْصٍ وَاصْطِبَارٍوَبُلْغَةٍ # وَإِرْشَادِأُسْتَاذِوَطُوْلِ زَمَانِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 15,
@@ -958,7 +977,7 @@ class _Section17State extends State<Section17> {
             Text(
               'شَكَوْتُ إِلَى وَقِيْعٍ سُوْءَحِفْظِيْ # فَأَرْشَدَنِي إِلَى تَرْكِ الْمَعَاصِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
