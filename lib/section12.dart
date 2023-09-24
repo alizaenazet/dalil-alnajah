@@ -70,7 +70,7 @@ class _Section12State extends State<Section12> {
                   '  ' +
                   'كُلِّ مَعْلُوْمٍ لَكَ ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,

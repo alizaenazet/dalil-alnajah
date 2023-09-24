@@ -60,7 +60,7 @@ class _Section19State extends State<Section19> {
               height: 5,
             ),
             Text(
-              'Terwujudnya manusia yang unggul, utuh, dan berakhlaqul karimah untuk kemuliaan dan kejayaan islam dan kaum muslimin, kemuliaan dan kejayaan seluruh bangsa Indonesia dan untuk keberhasilan cita-cita kemerdekaan yaitu terwujudnya kesejahteraan dan tegaknya keadilan bagi seluru bangsa Indonesia tanpa terkecuali',
+              'Terwujudnya manusia yang unggul, utuh, dan berakhlaqul karimah untuk kemuliaan dan kejayaan islam dan kaum muslimin, kemuliaan dan kejayaan seluruh bangsa Indonesia dan untuk keberhasilan cita-cita kemerdekaan yaitu terwujudnya kesejahteraan dan tegaknya keadilan bagi seluruh bangsa Indonesia tanpa terkecuali',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                 height: 1.5,

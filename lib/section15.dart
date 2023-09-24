@@ -62,7 +62,7 @@ class _Section15State extends State<Section15> {
                   ' ' +
                   'رَبُّ السَّمَاوَاتِ وَالَارْضِ وَمَابَيْنَهُمَآلْعَزِيْزُالْغَفَّارُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,

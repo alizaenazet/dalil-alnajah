@@ -57,7 +57,7 @@ class _Section8State extends State<Section8> {
                   '   - ' +
                   '١٢٨',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -71,7 +71,7 @@ class _Section8State extends State<Section8> {
                   '  - ' +
                   '١٢٩',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 30,

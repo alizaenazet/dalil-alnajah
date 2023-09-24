@@ -49,7 +49,7 @@ class _Section16State extends State<Section16> {
               children: [
                 Text(
                   '(1x)  الفَاتِحَة',
-                  style: largeBlackArabic,
+                  style: largeBlackArabic.copyWith(height: 2.2),
                 ),
               ],
             ),
@@ -61,7 +61,7 @@ class _Section16State extends State<Section16> {
               children: [
                 Text(
                   '(3x) سورة الإخلاص ',
-                  style: largeBlackArabic,
+                  style: largeBlackArabic.copyWith(height: 2.2),
                 ),
               ],
             ),
@@ -73,7 +73,7 @@ class _Section16State extends State<Section16> {
               children: [
                 Text(
                   '(7x) لاَ إِلهَ إِلاَّالله ',
-                  style: largeBlackArabic,
+                  style: largeBlackArabic.copyWith(height: 2.2),
                 ),
               ],
             ),
@@ -83,7 +83,7 @@ class _Section16State extends State<Section16> {
             Text(
               ' أسْتَغْفِرُ اللهَ العَظِيْمَ وَأتُوبُ إلَيْهِ ' + '  (7x) ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -92,7 +92,7 @@ class _Section16State extends State<Section16> {
               ' أسْتَغْفِرُ اللهَ العَظِيْمَ إنَّهُ كاَنَ غَفَّارًا ' +
                   '  (7x) ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -102,7 +102,7 @@ class _Section16State extends State<Section16> {
                   ' وَبَارِكْ وَسَلِّمْ ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -111,7 +111,7 @@ class _Section16State extends State<Section16> {
               'لاَإلَهَ إلاَّ أَنْتَ سُبْحَانَكَ إنِّى كُنْتُ مِنَ الظَّالِمِيْنَ ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -120,7 +120,7 @@ class _Section16State extends State<Section16> {
               'سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -129,7 +129,7 @@ class _Section16State extends State<Section16> {
               'لاَحَوْلَ وَلاَقُوَّةَ إلاَّ بِااللهِ العَلِيّ الْعَظِيْمِ  ' +
                   '  (9x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -139,7 +139,7 @@ class _Section16State extends State<Section16> {
                   'النَّصِيْرُ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -150,7 +150,7 @@ class _Section16State extends State<Section16> {
                 Text(
                   'يَا لَطِيْفُ ' + '  (15x)',
                   textDirection: TextDirection.rtl,
-                  style: largeBlackArabic,
+                  style: largeBlackArabic.copyWith(height: 2.2),
                 ),
               ],
             ),
@@ -161,7 +161,7 @@ class _Section16State extends State<Section16> {
               'رَبَّنَا زِدْنَا عُلُوْمًا نَافِعةً وَارْزُقْنَا أعْمَالاً مُتَقَبَّلَةً ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -170,7 +170,7 @@ class _Section16State extends State<Section16> {
               'وَذَلّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوْبُهُمْ وَمِنْهَا يَاءْكُلُوْنَ ' +
                   '  (9x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -180,7 +180,7 @@ class _Section16State extends State<Section16> {
                   'لاَيُخْلِفُ الْمِعَادَ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -188,7 +188,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(4×) ٱللَّٰهُ أَكْبَرُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -196,7 +196,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(2×) أَشْهَدُ أَن لَّا إِلَٰهَ إِلَّا ٱللَّٰهُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -204,7 +204,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(2×) أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -212,7 +212,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(2×) حَيَّ عَلَى ٱلصَّلَاةِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -220,7 +220,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(2×) حَيَّ عَلَى ٱلْفَلَاحِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -228,7 +228,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(2×) ٱللَّٰهُ أَكْبَرُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 20,
@@ -236,7 +236,7 @@ class _Section16State extends State<Section16> {
             Text(
               '(1×) لَا إِلَٰهَ إِلَّا ٱللَّٰهُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -244,7 +244,7 @@ class _Section16State extends State<Section16> {
             Text(
               'ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -262,7 +262,7 @@ class _Section16State extends State<Section16> {
                   'وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ وَلِيُمَحِّصَ مَا' +
                   'فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -276,35 +276,35 @@ class _Section16State extends State<Section16> {
                   'فَاسْتَغْلَظَ فَاسْتَوٰى عَلٰى سُوْقِهٖ يُعْجِبُ الزُّرَّاعَ' +
                   'لِيَغِيْظَ بِهِمُ الْكُفَّارَ ۗوَعَدَ اللّٰهُ الَّذِيْنَ اٰمَنُوْا' +
                   'وَعَمِلُوا الصّٰلِحٰتِ مِنْهُمْ مَّغْفِرَةً وَّاَجْرًا عَظِيْمًا' +
-                  '()\n' ,
+                  '()\n',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
             ),
             Text(
-                 'لَقَدْ جَاۤءَكُمْ رَسُوْلٌ مِّنْ اَنْفُسِكُمْ عَزِيْزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيْصٌ عَلَيْكُمْ بِالْمُؤْمِنِيْنَ رَءُوْفٌ رَّحِيْمٌ ' +
+              'لَقَدْ جَاۤءَكُمْ رَسُوْلٌ مِّنْ اَنْفُسِكُمْ عَزِيْزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيْصٌ عَلَيْكُمْ بِالْمُؤْمِنِيْنَ رَءُوْفٌ رَّحِيْمٌ ' +
                   '()\n' +
                   'فَاِنْ تَوَلَّوْا فَقُلْ حَسْبِيَ اللّٰهُ لَآ اِلٰهَ اِلَّا هُوَ ۗ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ ࣖ' +
                   '()\n',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
             ),
             Text(
-              'لَوْ اَنْزَلْنَا هٰذَا الْقُرْاٰنَ عَلٰى جَبَلٍ لَّرَاَيْتَهٗ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللّٰهِ ۗوَتِلْكَ الْاَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ '+
-              '()\n' +
-              'هُوَ اللّٰهُ الَّذِيْ لَآ اِلٰهَ اِلَّا هُوَۚ عَالِمُ الْغَيْبِ وَالشَّهَادَةِۚ هُوَ الرَّحْمٰنُ الرَّحِيْمُ' 
-              '()\n' +
-              'هُوَ اللّٰهُ الَّذِيْ لَآ اِلٰهَ اِلَّا هُوَ ۚ اَلْمَلِكُ الْقُدُّوْسُ السَّلٰمُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيْزُ الْجَبَّارُ الْمُتَكَبِّرُۗ سُبْحٰنَ اللّٰهِ عَمَّا يُشْرِكُوْنَ' +
-              '()\n' +
-              'هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْاَسْمَاۤءُ الْحُسْنٰىۗ يُسَبِّحُ لَهٗ مَا فِى السَّمٰوٰتِ وَالْاَرْضِۚ وَهُوَ الْعَزِيْزُ الْحَكِيْمُ ࣖ ' +
-              '()\n',
+              'لَوْ اَنْزَلْنَا هٰذَا الْقُرْاٰنَ عَلٰى جَبَلٍ لَّرَاَيْتَهٗ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللّٰهِ ۗوَتِلْكَ الْاَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ ' +
+                  '()\n' +
+                  'هُوَ اللّٰهُ الَّذِيْ لَآ اِلٰهَ اِلَّا هُوَۚ عَالِمُ الْغَيْبِ وَالشَّهَادَةِۚ هُوَ الرَّحْمٰنُ الرَّحِيْمُ'
+                      '()\n' +
+                  'هُوَ اللّٰهُ الَّذِيْ لَآ اِلٰهَ اِلَّا هُوَ ۚ اَلْمَلِكُ الْقُدُّوْسُ السَّلٰمُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيْزُ الْجَبَّارُ الْمُتَكَبِّرُۗ سُبْحٰنَ اللّٰهِ عَمَّا يُشْرِكُوْنَ' +
+                  '()\n' +
+                  'هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْاَسْمَاۤءُ الْحُسْنٰىۗ يُسَبِّحُ لَهٗ مَا فِى السَّمٰوٰتِ وَالْاَرْضِۚ وَهُوَ الْعَزِيْزُ الْحَكِيْمُ ࣖ ' +
+                  '()\n',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -329,7 +329,7 @@ class _Section16State extends State<Section16> {
               ' يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْن ' +
                   '  (7x)',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -373,7 +373,7 @@ class _Section16State extends State<Section16> {
                   'يُسَبِّحُوْنَ بِحَمْدِ رَبِّهِمْۚ وَقُضِيَ بَيْنَهُمْ بِالْحَقِّ' +
                   'وَقِيْلَ الْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -381,7 +381,7 @@ class _Section16State extends State<Section16> {
             Text(
               ' يَاحَيُّ يَاقَيُّوْمُ بِرَحْمَتِكَ أسْتَغِيْثُ',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,
@@ -390,7 +390,7 @@ class _Section16State extends State<Section16> {
                 ' رَبَّنَاتَقَبَّلْ مِنَّا إنَّكَ أنْتَ السَّمِيْعُ العَلِيْمُ' +
                     'وَتُبْ عَلَيْنَا إنَّكَ أنْتَ التَّوَّابُ الرَّحِيْمُ',
                 textDirection: TextDirection.rtl,
-                style: largeBlackArabic),
+                style: largeBlackArabic.copyWith(height: 2.2)),
             SizedBox(
               height: 50,
             ),
@@ -398,7 +398,7 @@ class _Section16State extends State<Section16> {
               'وَصَلَّى اللهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ' +
                   'وَسَلَّمَ وَالْحَمْدُ للهِ رَبِّ الْعَالَمِيْنَ. ( الفاتحة )',
               textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+              style: largeBlackArabic.copyWith(height: 2.2),
             ),
             SizedBox(
               height: 50,

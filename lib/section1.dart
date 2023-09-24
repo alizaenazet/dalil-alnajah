@@ -99,7 +99,7 @@ class _Section1State extends State<Section1> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text(
-                  '1. Adzan',
+                  '3. Adzan',
                   style: GoogleFonts.poppins(
                       textStyle: TextStyle(
                           color: Colors.green,
