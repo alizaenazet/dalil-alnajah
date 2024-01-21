@@ -49,18 +49,13 @@ class _Section15State extends State<Section15> {
             SizedBox(
               height: 40,
             ),
-            Text(
-              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-              textDirection: TextDirection.rtl,
-              style: largeBoldGreenArabic,
-            ),
             SizedBox(
               height: 20,
             ),
             Text(
               'لَآِلَهَ اِلاَّآللهُ الوَاحِدُالْقَهَّارُ' +
                   ' ' +
-                  'رَبُّ السَّمَاوَاتِ وَالَارْضِ وَمَابَيْنَهُمَآلْعَزِيْزُالْغَفَّارُ',
+                  'رَبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الْعَزِيزُ الْغَفَّارُ',
               textDirection: TextDirection.rtl,
               style: largeBlackArabic.copyWith(height: 2.2),
             ),

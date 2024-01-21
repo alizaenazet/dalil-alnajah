@@ -48,11 +48,6 @@ class _Section13State extends State<Section13> {
             SizedBox(
               height: 40,
             ),
-            Text(
-              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
-              textDirection: TextDirection.rtl,
-              style: largeBoldGreenArabic,
-            ),
             SizedBox(
               height: 20,
             ),

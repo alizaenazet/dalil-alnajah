@@ -64,10 +64,26 @@ class _Section10State extends State<Section10> {
             SizedBox(
               height: 3,
             ),
-            Text(
-              'يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْنُ',
-              textDirection: TextDirection.rtl,
-              style: largeBlackArabic,
+            Padding(
+              padding:
+                  EdgeInsets.only(top: 5.0), //apply padding to all four sides
+              child: Text(
+                'يَاهَادِي يَاعَلِيْمُ يَاخَبِيْرُ يَافَتَّاحُ يَامُبِيْنُ',
+                textDirection: TextDirection.rtl,
+                style: largeBlackArabic,
+              ),
+            ),
+            Padding(
+              padding:
+                  EdgeInsets.only(top: 5.0), //apply padding to all four sides
+              child: Text(
+                'Ya Allah yang Maha Memberi Petunjuk, Yang Maha Mengetahui, Yang Maha Bijaksana, Yang Maha Pembuka dan Yang Maha Memberi Penjelasan',
+                style: GoogleFonts.roboto(
+                    textStyle: TextStyle(
+                        height: 1.5,
+                        color: Colors.grey.shade900,
+                        fontSize: 20)),
+              ),
             ),
             SizedBox(
               height: 30,
@@ -88,10 +104,23 @@ class _Section10State extends State<Section10> {
               height: 3,
             ),
             Text(
-              'Faithful, Taqwa, Scholarly, Discipline, Responsible, Clean, Polite, Amiable, Neat (Beriman, Bertaqwa, Berilmu, Disiplin, Bertanggungjawab, Bersih, Sopan, Ramah, Rapi)',
+              'Faithful, Taqwa, Scholarly, Discipline, Responsible, Clean, Polite, Amiable, Neat',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
-                      height: 1.5, color: Colors.grey.shade900, fontSize: 20)),
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              )),
+            ),
+            Text(
+              '(Beriman, Bertaqwa, Berilmu, Disiplin, Bertanggungjawab, Bersih, Sopan, Ramah, Rapi)',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                height: 1.5,
+                color: Colors.grey.shade900,
+                fontSize: 20,
+              )),
             ),
             SizedBox(
               height: 30,
