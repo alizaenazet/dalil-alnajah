@@ -199,27 +199,16 @@ class _Section1State extends State<Section1> {
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Text(
-                  '5. Ali Imran : 154, Al-Fath : 29,',
-                  style: GoogleFonts.poppins(
-                      textStyle: TextStyle(
-                          color: Colors.green,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold)),
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Text(
-                  '     dan At-Taubah : 128-129',
-                  style: GoogleFonts.poppins(
-                      textStyle: TextStyle(
-                          color: Colors.green,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold)),
-                ),
+                Flexible(
+                  child: new Text(
+                    '5. Ali Imran : 154, Al-Fath : 29 dan At-Taubah : 128-129',
+                    style: GoogleFonts.poppins(
+                        textStyle: TextStyle(
+                            color: Colors.green,
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold)),
+                  ),
+                )
               ],
             ),
             SizedBox(
@@ -253,7 +242,17 @@ class _Section1State extends State<Section1> {
               height: 5,
             ),
             Text(
-              'Akal yang cerdas terdapat pada tubuh yang sehat Di dalam hadits disebutkan bahwa di dalam al-Quran terdapat dua ayat yang merupakan obat bagi setiap penyakit. Para ulama ahli Bashirah (yang memiliki pandangan hati kuat) sepakat bahwa dua ayat tersebut terdapat pada empat ayat di atas dan masih berbeda pendapat pada hanya dua ayat, oleh karenanya keempat-empatnya dibaca dalam dalam apel pagi dilembaga pendidikan unggulan Amanatul Ummah',
+              'Akal yang cerdas terdapat pada tubuh yang sehat',
+              style: GoogleFonts.roboto(
+                  textStyle: TextStyle(
+                      height: 1.5,
+                      color: Colors.grey.shade900,
+                      fontSize: size,
+                      fontStyle: FontStyle.italic)),
+              textAlign: TextAlign.center,
+            ),
+            Text(
+              'Di dalam hadits disebutkan bahwa di dalam al-Quran terdapat dua ayat yang merupakan obat bagi setiap penyakit. Para ulama ahli Bashirah (yang memiliki pandangan hati kuat) sepakat bahwa dua ayat tersebut terdapat pada empat ayat di atas dan masih berbeda pendapat pada hanya dua ayat, oleh karenanya keempat-empatnya dibaca dalam dalam apel pagi dilembaga pendidikan unggulan Amanatul Ummah',
               style: GoogleFonts.roboto(
                   textStyle: TextStyle(
                       height: 1.5,
@@ -315,7 +314,7 @@ class _Section1State extends State<Section1> {
               height: 5,
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
               child: Container(
                 // height: 100,
                 width: MediaQuery.of(context).size.width,

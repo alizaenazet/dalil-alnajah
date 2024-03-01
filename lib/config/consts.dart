@@ -21,10 +21,7 @@ final smallGreenArabic = TextStyle(
 );
 
 final largeBlackArabic = TextStyle(
-  color: Colors.black,
-  fontSize: 32,
-  fontFamily: LPMQFontFamily,
-);
+    color: Colors.black, fontSize: 32, fontFamily: LPMQFontFamily, height: 2.2);
 
 final arabicTitleStyle = TextStyle(
   color: Colors.black,
@@ -33,11 +30,11 @@ final arabicTitleStyle = TextStyle(
 );
 
 const largeBoldGreenArabic = TextStyle(
-  color: Colors.green,
-  fontSize: 32,
-  fontWeight: FontWeight.bold,
-  fontFamily: LPMQFontFamily,
-);
+    color: Colors.green,
+    fontSize: 32,
+    fontWeight: FontWeight.bold,
+    fontFamily: LPMQFontFamily,
+    height: 2.2);
 
 const largeBoldOrangeArabic = TextStyle(
   color: Colors.orange,
